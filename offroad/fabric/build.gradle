@@ -18,17 +18,8 @@ loom {
 }
 
 repositories {
-    exclusiveContent {
-        forRepository {
-            maven {
-                name = 'Modrinth'
-                url = 'https://api.modrinth.com/maven'
-            }
-        }
-        filter {
-            includeGroup 'maven.modrinth'
-        }
-    }
+    // NOTE: Modrinth exclusiveContent lives in the ROOT build.gradle
+    // (declaring it here too breaks resolution - duplicate exclusive repos).
     maven {
         name = 'ryanhcode-releases'
         url = 'https://maven.ryanhcode.dev/releases'

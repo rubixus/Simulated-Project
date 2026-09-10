@@ -156,3 +156,19 @@ Hard external blockers (verified 2026-09-10 via Modrinth API, no 26.2 builds
 exist): **Sable** (latest `2.0.5+mc1.21.1`) and **Veil** (latest `4.5.0`
 for 1.21.1). The mod cannot run on 26.2 until Sable 26.2 exists. Sable is by
 the same author as this project, so coordinate there.
+
+## 9. Toolchain fixes (verified working 2026-09-10)
+
+- JDK 25 (Temurin `25.0.4.1`) + Gradle wrapper `9.5.1` (Loom 1.17.20 *requires*
+  Gradle 9.5.x: its `runtimeElements` demand `plugin.api-version 9.5.0`, so the
+  wrapper cannot even be upgraded via `./gradlew wrapper` under 9.4.1 — bump
+  `gradle-wrapper.properties` by hand).
+- `settings.gradle.kts` must list `https://maven.fabricmc.net/` FIRST in
+  `pluginManagement` or the `1.17-SNAPSHOT` marker won't resolve.
+- Pinned: Loader `0.19.5`, Fabric API `0.159.0+26.2` (from `fabric-example-mod`
+  branch `26.2`).
+- `multiloader-fabric.gradle` must NOT declare `localRuntime` (Loom owns it).
+- Gotcha: declaring the Modrinth `exclusiveContent` block in BOTH the root
+  `subprojects` block and a module silently breaks resolution of
+  `maven.modrinth` artifacts (zero repo attempts, bare "Could not find").
+  Declare it exactly ONCE (root).

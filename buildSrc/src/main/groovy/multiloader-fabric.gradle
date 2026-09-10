@@ -20,11 +20,10 @@ configurations {
     commonResources {
         canBeResolved = true
     }
-    localRuntime {
-        canBeResolved = false
-        canBeConsumed = false
-    }
-    runtimeClasspath.extendsFrom(localRuntime)
+    // NOTE: no localRuntime here - Fabric Loom already provides a
+    // 'localRuntime' configuration and redeclaring it fails the build.
+    // If loader-only runtime deps are ever needed, declare them with
+    // Loom's own localRuntime (modLocalRuntime) instead.
 }
 
 dependencies {

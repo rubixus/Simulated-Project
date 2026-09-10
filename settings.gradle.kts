@@ -1,5 +1,7 @@
 pluginManagement {
     repositories {
+        // Required for Fabric Loom snapshots (e.g. 1.17-SNAPSHOT)
+        maven("https://maven.fabricmc.net/")
         gradlePluginPortal()
         mavenCentral()
         exclusiveContent {
