@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.items.rope.RopeItem;
 
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import dev.simulated_team.simulated.content.blocks.rope.RopeStrandHolderBehavior;
 import dev.simulated_team.simulated.content.blocks.rope.rope_winch.RopeWinchBlockEntity;
 import dev.simulated_team.simulated.data.advancements.SimAdvancements;

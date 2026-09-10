@@ -1,6 +1,6 @@
 package dev.ryanhcode.offroad.config.server;
 
-import net.createmod.catnip.config.ConfigBase;
+import com.zurrtum.create.catnip.config.ConfigBase;
 
 public class OffroadKinetics extends ConfigBase {
 

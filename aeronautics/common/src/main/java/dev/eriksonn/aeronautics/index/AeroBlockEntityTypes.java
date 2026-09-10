@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.index;
 
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.base.ShaftRenderer;
-import com.simibubi.create.content.kinetics.base.SingleAxisRotatingVisual;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.client.content.kinetics.base.ShaftRenderer;
+import com.zurrtum.create.client.content.kinetics.base.SingleAxisRotatingVisual;
 import dev.simulated_team.simulated.registrate.SimulatedRegistrate;
 import dev.simulated_team.simulated.service.SimInventoryService;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;

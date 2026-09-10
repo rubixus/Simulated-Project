@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.config.server;
 
-import com.simibubi.create.infrastructure.config.CStress;
+import com.zurrtum.create.infrastructure.config.CStress;
 import com.tterrag.registrate.builders.BlockBuilder;
 import com.tterrag.registrate.util.nullness.NonNullUnaryOperator;
 import dev.eriksonn.aeronautics.Aeronautics;

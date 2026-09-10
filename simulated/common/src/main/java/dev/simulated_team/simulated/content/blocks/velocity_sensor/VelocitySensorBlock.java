@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.velocity_sensor;
 
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.content.blocks.util.AbstractDirectionalAxisBlock;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.multiloader.CommonRedstoneBlock;

@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.neoforge.data.recipe;
 
-import com.simibubi.create.AllBlocks;
+import com.zurrtum.create.AllBlocks;
 import com.simibubi.create.api.data.recipe.MechanicalCraftingRecipeGen;
 import com.simibubi.create.foundation.data.recipe.CommonMetal;
 import dev.eriksonn.aeronautics.Aeronautics;

@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.content.entities.diagram;
 
-import com.simibubi.create.api.schematic.requirement.SpecialEntityItemRequirement;
-import com.simibubi.create.content.schematics.requirement.ItemRequirement;
+import com.zurrtum.create.api.schematic.requirement.SpecialEntityItemRequirement;
+import com.zurrtum.create.content.schematics.requirement.ItemRequirement;
 import com.simibubi.create.foundation.networking.ISyncPersistentData;
-import com.simibubi.create.foundation.utility.IInteractionChecker;
+import com.zurrtum.create.foundation.utility.IInteractionChecker;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.physics.force.ForceGroup;
 import dev.ryanhcode.sable.api.physics.force.ForceGroups;

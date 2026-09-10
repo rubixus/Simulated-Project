@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.absorber;
 
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.equipment.wrench.IWrenchable;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.index.SimBlockShapes;
 import dev.simulated_team.simulated.index.SimSoundEvents;
 import net.minecraft.core.BlockPos;

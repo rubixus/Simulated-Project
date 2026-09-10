@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.index.neoforge;
 
-import com.simibubi.create.foundation.utility.CreateLang;
+import com.zurrtum.create.client.foundation.utility.CreateLang;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.index.SimParticleTypes;
 import net.minecraft.core.particles.ParticleType;

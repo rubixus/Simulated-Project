@@ -2,10 +2,10 @@ package dev.simulated_team.simulated.mixin.extra_kinetics.auto_orientation;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.simibubi.create.content.kinetics.base.HorizontalAxisKineticBlock;
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.base.RotatedPillarKineticBlock;
+import com.zurrtum.create.content.kinetics.base.HorizontalAxisKineticBlock;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.base.RotatedPillarKineticBlock;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

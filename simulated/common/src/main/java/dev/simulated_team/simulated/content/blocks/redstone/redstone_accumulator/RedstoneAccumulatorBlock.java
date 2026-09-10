@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.redstone.redstone_accumulator;
 
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.content.redstone.diodes.AbstractDiodeBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.redstone.diodes.AbstractDiodeBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.index.SimBlockShapes;
 import dev.simulated_team.simulated.multiloader.CommonRedstoneBlock;

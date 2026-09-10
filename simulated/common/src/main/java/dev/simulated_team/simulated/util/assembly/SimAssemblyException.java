@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.util.assembly;
 
-import com.simibubi.create.content.contraptions.AssemblyException;
+import com.zurrtum.create.content.contraptions.AssemblyException;
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.service.SimConfigService;
 

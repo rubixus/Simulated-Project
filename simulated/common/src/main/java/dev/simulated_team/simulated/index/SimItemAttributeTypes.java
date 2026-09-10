@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.index;
 
 import com.simibubi.create.api.registry.CreateBuiltInRegistries;
-import com.simibubi.create.content.logistics.item.filter.attribute.ItemAttributeType;
+import com.zurrtum.create.content.logistics.item.filter.attribute.ItemAttributeType;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.content.item_attributes.BlockBouncinessItemAttribute;
 import dev.simulated_team.simulated.content.item_attributes.BlockFrictionItemAttribute;

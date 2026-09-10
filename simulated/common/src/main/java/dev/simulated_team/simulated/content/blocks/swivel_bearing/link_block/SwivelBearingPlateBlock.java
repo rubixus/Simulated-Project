@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.swivel_bearing.link_block;
 
-import com.simibubi.create.content.kinetics.base.DirectionalKineticBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.kinetics.base.DirectionalKineticBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.ryanhcode.sable.api.block.BlockSubLevelAssemblyListener;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.index.SimBlockShapes;

@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.content.blocks.propeller.bearing.gyroscopic_propeller_bearing;
 
-import com.simibubi.create.content.contraptions.DirectionalExtenderScrollOptionSlot;
-import com.simibubi.create.content.contraptions.bearing.BearingBlock;
-import com.simibubi.create.foundation.blockEntity.behaviour.ValueBoxTransform;
+import com.zurrtum.create.client.content.contraptions.DirectionalExtenderScrollOptionSlot;
+import com.zurrtum.create.content.contraptions.bearing.BearingBlock;
+import com.zurrtum.create.client.foundation.blockEntity.behaviour.ValueBoxTransform;
 import dev.ryanhcode.sable.Sable;
 import dev.simulated_team.simulated.util.SimMathUtils;
 import dev.eriksonn.aeronautics.content.blocks.propeller.bearing.contraption.PropellerBearingContraptionEntity;

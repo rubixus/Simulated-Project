@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.network.packets;
 
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.content.blocks.rope.RopeStrandHolderBehavior;
 import dev.simulated_team.simulated.content.blocks.rope.strand.server.RopeAttachment;

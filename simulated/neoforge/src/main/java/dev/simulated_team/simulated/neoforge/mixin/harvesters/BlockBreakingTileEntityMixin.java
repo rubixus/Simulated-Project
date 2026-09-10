@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.neoforge.mixin.harvesters;
 
-import com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import dev.simulated_team.simulated.content.blocks.auger_shaft.BlockHarvester;
 import dev.simulated_team.simulated.content.blocks.auger_shaft.auger_groups.AugerDistributor;
 import net.minecraft.core.BlockPos;

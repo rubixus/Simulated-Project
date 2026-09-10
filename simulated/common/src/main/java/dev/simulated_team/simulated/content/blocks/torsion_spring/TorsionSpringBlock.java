@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.torsion_spring;
 
-import com.simibubi.create.content.kinetics.base.DirectionalKineticBlock;
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.kinetics.base.DirectionalKineticBlock;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.api.IDirectionalAnalogOutput;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.index.SimBlockShapes;

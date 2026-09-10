@@ -39,7 +39,7 @@ Continued `fabric-26.2` port, and `R2bEEaton-Minecraft/create-connected-fly`
   Registrate (`com.tterrag.registrate`) ship **inside** the Fly jar — do NOT
   add separate deps; drop the NeoForge-classifier artifacts
   (`ponder-neoforge`, `flywheel-neoforge`, `create-<mc>:slim`).
-- `catnip` (`net.createmod.catnip.lang.FontHelper` etc.): check Fly jar; the
+- `catnip` (`com.zurrtum.create.client.catnip.lang.FontHelper` etc.): check Fly jar; the
   `create-connected-fly` notes report the multiloader `CatnipServices` locator
   does NOT exist in Fly — call sites (e.g. `FeatureToggle`-style
   `executeOnClientOnly`) need direct Fabric replacements.
@@ -121,3 +121,31 @@ Each `Sim*Service` interface needs a `fabric` implementation mirroring the
 5. Client: renderers, keybinds, JEI/REI/RRV plugins, Trinkets.
 6. Mixins + accesswidener + datagen; runtime test on 26.2 + Loader 0.19.3 +
    Fabric API 0.154.2+26.2 + Fly `26.2-rc-2-6.0.9-1`.
+
+## 8. Automated conversion progress (this branch)
+
+Two verified bulk-rename passes were applied and committed (pure import-path
+changes, 482 files, no logic touched):
+
+- Pass 1: 314 fully-qualified Create/Catnip/Ponder references renamed after
+  verifying each target class exists in
+  `create-fly-26.2-rc-2-6.0.9-1.jar` (3,544 classes inventoried), e.g.
+  `com.simibubi.create.*` -> `com.zurrtum.create.*` (client classes under
+  `com.zurrtum.create.client.*`), `net.createmod.catnip.*` ->
+  `com.zurrtum.create.{client.}catnip.*`.
+- Pass 2: 8 more via unique same-name matches confirmed against Fly sources
+  (goggle interfaces, `AirParticleData`, `RotationIndicatorParticleData`,
+  `BrassDiodeScrollValueBehaviour`, `BlockEntityBehaviour`,
+  `ValueSettingsBoard/Formatter`).
+
+Left for manual passes: ~67 unique Create refs with no Fly counterpart
+(Registrate/datagen stack — Fly has no Registrate, datagen must be rewritten
+on vanilla providers; `CreateBuiltInRegistries`/`CreateDataMaps`/`AllTags`;
+JEI `ConversionRecipe`; piston members; `CreateClient`; assorted
+foundation/content classes), plus the `com.tterrag.registrate` (33),
+`net.neoforged` (22 in common), Sable/Veil/Curios/JEI-NeoForge layers.
+
+Hard external blockers (verified 2026-09-10 via Modrinth API, no 26.2 builds
+exist): **Sable** (latest `2.0.5+mc1.21.1`) and **Veil** (latest `4.5.0`
+for 1.21.1). The mod cannot run on 26.2 until Sable 26.2 exists. Sable is by
+the same author as this project, so coordinate there.

@@ -1,6 +1,6 @@
 package dev.ryanhcode.offroad.events;
 
-import com.simibubi.create.AllBlocks;
+import com.zurrtum.create.AllBlocks;
 import dev.ryanhcode.offroad.content.blocks.wheel_mount.WheelMountBlockEntity;
 import dev.ryanhcode.offroad.content.components.TireLike;
 import dev.ryanhcode.offroad.handlers.client.MultiMiningClientHandler;

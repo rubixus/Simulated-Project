@@ -1,7 +1,7 @@
 package dev.ryanhcode.offroad.handlers.server;
 
-import com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
-import com.simibubi.create.foundation.utility.BlockHelper;
+import com.zurrtum.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
+import com.zurrtum.create.foundation.utility.BlockHelper;
 import dev.engine_room.flywheel.lib.util.LevelAttached;
 import dev.ryanhcode.offroad.handlers.MultiminingDataTickResult;
 import dev.ryanhcode.offroad.network.borehead_bearing.ClientboundMultiMiningSync;

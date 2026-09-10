@@ -1,7 +1,7 @@
 package dev.eriksonn.aeronautics.content.items;
 
 import com.simibubi.create.content.equipment.armor.BaseArmorItem;
-import com.simibubi.create.content.equipment.goggles.GogglesItem;
+import com.zurrtum.create.content.equipment.goggles.GogglesItem;
 import dev.eriksonn.aeronautics.Aeronautics;
 import dev.eriksonn.aeronautics.index.AeroArmorMaterials;
 import dev.eriksonn.aeronautics.index.AeroItems;

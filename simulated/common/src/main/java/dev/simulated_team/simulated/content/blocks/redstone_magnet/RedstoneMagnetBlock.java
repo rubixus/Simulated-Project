@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.redstone_magnet;
 
-import com.simibubi.create.foundation.block.IBE;
-import com.simibubi.create.foundation.block.WrenchableDirectionalBlock;
+import com.zurrtum.create.foundation.block.IBE;
+import com.zurrtum.create.foundation.block.WrenchableDirectionalBlock;
 import dev.simulated_team.simulated.data.advancements.SimAdvancements;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import net.minecraft.core.BlockPos;

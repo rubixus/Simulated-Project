@@ -1,6 +1,6 @@
 package dev.ryanhcode.offroad.neoforge.mixin_helpers;
 
-import com.simibubi.create.content.contraptions.Contraption;
+import com.zurrtum.create.content.contraptions.Contraption;
 import dev.ryanhcode.offroad.content.blocks.borehead_bearing.BoreheadAttachedStorage;
 import dev.ryanhcode.offroad.content.contraptions.borehead_contraption.BoreheadBearingContraption;
 import net.minecraft.world.item.ItemStack;

@@ -1,10 +1,10 @@
 package dev.simulated_team.simulated;
 
 import com.mojang.logging.LogUtils;
-import com.simibubi.create.foundation.item.ItemDescription;
-import com.simibubi.create.foundation.item.KineticStats;
-import com.simibubi.create.foundation.item.TooltipHelper;
-import com.simibubi.create.foundation.item.TooltipModifier;
+import com.zurrtum.create.client.foundation.item.ItemDescription;
+import com.zurrtum.create.client.foundation.item.KineticStats;
+import com.zurrtum.create.client.foundation.item.TooltipHelper;
+import com.zurrtum.create.client.foundation.item.TooltipModifier;
 import com.tterrag.registrate.providers.ProviderType;
 import com.tterrag.registrate.util.nullness.NonNullSupplier;
 import dev.ryanhcode.sable.platform.SableEventPlatform;
@@ -16,7 +16,7 @@ import dev.simulated_team.simulated.registrate.SimulatedRegistrate;
 import dev.simulated_team.simulated.service.SimModCompatibilityService;
 import dev.simulated_team.simulated.util.SimAssemblyHelper;
 import dev.simulated_team.simulated.util.SimColors;
-import net.createmod.catnip.lang.FontHelper;
+import com.zurrtum.create.client.catnip.lang.FontHelper;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Rarity;

@@ -2,9 +2,9 @@ package dev.simulated_team.simulated.mixin.extra_kinetics;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.simpleRelays.encased.EncasedCogwheelBlock;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.simpleRelays.encased.EncasedCogwheelBlock;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

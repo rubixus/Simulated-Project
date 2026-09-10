@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen;
 
-import com.simibubi.create.foundation.gui.menu.GhostItemMenu;
+import com.zurrtum.create.foundation.gui.menu.GhostItemMenu;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.LinkedTypewriterBlockEntity;
 import dev.simulated_team.simulated.index.SimMenuTypes;
 import dev.simulated_team.simulated.service.SimMenuService;

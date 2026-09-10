@@ -2,13 +2,13 @@ package dev.eriksonn.aeronautics.content.blocks.propeller.small.smart_propeller;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.simibubi.create.AllPartialModels;
+import com.zurrtum.create.client.AllPartialModels;
 import dev.engine_room.flywheel.lib.model.baked.PartialModel;
 import dev.eriksonn.aeronautics.content.blocks.propeller.small.SimplePropellerRenderer;
 import dev.eriksonn.aeronautics.index.AeroPartialModels;
-import net.createmod.catnip.math.AngleHelper;
-import net.createmod.catnip.render.CachedBuffers;
-import net.createmod.catnip.render.SuperByteBuffer;
+import com.zurrtum.create.catnip.math.AngleHelper;
+import com.zurrtum.create.client.catnip.render.CachedBuffers;
+import com.zurrtum.create.client.catnip.render.SuperByteBuffer;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;

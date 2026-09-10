@@ -1,7 +1,7 @@
 package dev.eriksonn.aeronautics.api.levitite_blend_crystallization;
 
-import com.simibubi.create.content.processing.burner.BlazeBurnerBlock;
-import com.simibubi.create.content.processing.burner.LitBlazeBurnerBlock;
+import com.zurrtum.create.content.processing.burner.BlazeBurnerBlock;
+import com.zurrtum.create.content.processing.burner.LitBlazeBurnerBlock;
 import dev.eriksonn.aeronautics.index.AeroRegistries;
 import dev.eriksonn.aeronautics.service.AeroLevititeService;
 import foundry.veil.platform.registry.RegistryObject;

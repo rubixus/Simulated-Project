@@ -1,12 +1,12 @@
 package dev.simulated_team.simulated.content.blocks.directional_gearshift;
 
-import com.simibubi.create.content.kinetics.RotationPropagator;
-import com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock;
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.base.RotatedPillarKineticBlock;
-import com.simibubi.create.content.kinetics.transmission.SplitShaftBlockEntity;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.kinetics.RotationPropagator;
+import com.zurrtum.create.content.kinetics.base.DirectionalAxisKineticBlock;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.base.RotatedPillarKineticBlock;
+import com.zurrtum.create.content.kinetics.transmission.SplitShaftBlockEntity;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

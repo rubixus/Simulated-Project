@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.items.merging_glue;
 
-import com.simibubi.create.AllSpecialTextures;
+import com.zurrtum.create.client.AllSpecialTextures;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.sublevel.SubLevel;
 import dev.simulated_team.simulated.data.SimLang;
@@ -10,7 +10,7 @@ import dev.simulated_team.simulated.service.SimConfigService;
 import dev.simulated_team.simulated.util.SimColors;
 import dev.simulated_team.simulated.util.SimDistUtil;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.outliner.Outliner;
+import com.zurrtum.create.client.catnip.outliner.Outliner;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
@@ -175,7 +175,7 @@ public class MergingGlueItemHandler {
                 final Vec3 globalFirstPoint = Sable.HELPER.projectOutOfSubLevel(level, linkAABB.getCenter());
                 final Vec3 globalTarget = Sable.HELPER.projectOutOfSubLevel(level, hitAABB.getCenter());
 
-                final DustParticleOptions data = new DustParticleOptions(new net.createmod.catnip.theme.Color(color).asVectorF(), 1);
+                final DustParticleOptions data = new DustParticleOptions(new com.zurrtum.create.catnip.theme.Color(color).asVectorF(), 1);
                 final int segments = 1;
 
                 for (int i = 0; i < segments; i++) {

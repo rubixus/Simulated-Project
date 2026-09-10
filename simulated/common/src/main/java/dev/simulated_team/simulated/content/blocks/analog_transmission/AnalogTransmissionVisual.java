@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.content.blocks.analog_transmission;
 
-import com.simibubi.create.AllPartialModels;
-import com.simibubi.create.content.kinetics.base.RotatingInstance;
-import com.simibubi.create.content.kinetics.base.SingleAxisRotatingVisual;
-import com.simibubi.create.foundation.render.AllInstanceTypes;
+import com.zurrtum.create.client.AllPartialModels;
+import com.zurrtum.create.client.content.kinetics.base.RotatingInstance;
+import com.zurrtum.create.client.content.kinetics.base.SingleAxisRotatingVisual;
+import com.zurrtum.create.client.foundation.render.AllInstanceTypes;
 import dev.engine_room.flywheel.api.instance.Instance;
 import dev.engine_room.flywheel.api.visualization.VisualizationContext;
 import dev.engine_room.flywheel.lib.model.Models;

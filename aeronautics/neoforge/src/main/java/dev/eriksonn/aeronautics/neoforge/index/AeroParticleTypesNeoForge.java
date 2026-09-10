@@ -2,7 +2,7 @@ package dev.eriksonn.aeronautics.neoforge.index;
 
 import dev.eriksonn.aeronautics.Aeronautics;
 import dev.eriksonn.aeronautics.index.AeroParticleTypes;
-import com.simibubi.create.foundation.utility.CreateLang;
+import com.zurrtum.create.client.foundation.utility.CreateLang;
 import net.minecraft.core.particles.ParticleType;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.neoforged.bus.api.IEventBus;

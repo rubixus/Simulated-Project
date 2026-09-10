@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.rope.rope_winch;
 
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.redstone.thresholdSwitch.ThresholdSwitchObservable;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.redstone.thresholdSwitch.ThresholdSwitchObservable;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.SubLevelHelper;
 import dev.ryanhcode.sable.companion.math.JOMLConversion;
@@ -16,7 +16,7 @@ import dev.simulated_team.simulated.content.blocks.rope.strand.server.ServerRope
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.index.SimSoundEvents;
 import dev.simulated_team.simulated.service.SimConfigService;
-import net.createmod.catnip.animation.LerpedFloat;
+import com.zurrtum.create.catnip.animation.LerpedFloat;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.nbt.CompoundTag;

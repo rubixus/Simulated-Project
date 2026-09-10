@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.entities.honey_glue;
 
-import com.simibubi.create.AllKeys;
-import com.simibubi.create.foundation.utility.CreateLang;
-import com.simibubi.create.foundation.utility.RaycastHelper;
+import com.zurrtum.create.client.AllKeys;
+import com.zurrtum.create.client.foundation.utility.CreateLang;
+import com.zurrtum.create.client.foundation.utility.RaycastHelper;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.sublevel.ClientSubLevel;
 import dev.ryanhcode.sable.sublevel.SubLevel;
@@ -19,8 +19,8 @@ import dev.simulated_team.simulated.util.SimColors;
 import dev.simulated_team.simulated.util.SimDistUtil;
 import dev.simulated_team.simulated.util.click_interactions.InteractCallback;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.data.Pair;
-import net.createmod.catnip.outliner.Outliner;
+import com.zurrtum.create.catnip.data.Pair;
+import com.zurrtum.create.client.catnip.outliner.Outliner;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;

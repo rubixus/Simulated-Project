@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.neoforge.index;
 
-import com.simibubi.create.infrastructure.config.AllConfigs;
+import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.simulated_team.simulated.registrate.SimulatedRegistrate;
 import com.tterrag.registrate.util.entry.FluidEntry;
 import dev.eriksonn.aeronautics.Aeronautics;

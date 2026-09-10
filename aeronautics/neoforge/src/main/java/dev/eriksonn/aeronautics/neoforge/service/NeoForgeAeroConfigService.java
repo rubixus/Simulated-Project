@@ -1,12 +1,12 @@
 package dev.eriksonn.aeronautics.neoforge.service;
 
-import com.simibubi.create.api.stress.BlockStressValues;
-import com.simibubi.create.infrastructure.config.CStress;
+import com.zurrtum.create.api.stress.BlockStressValues;
+import com.zurrtum.create.infrastructure.config.CStress;
 import dev.eriksonn.aeronautics.config.client.AeroClient;
 import dev.eriksonn.aeronautics.config.server.AeroServer;
 import dev.eriksonn.aeronautics.config.AeroConfig;
 import dev.eriksonn.aeronautics.config.server.AeroStress;
-import net.createmod.catnip.config.ConfigBase;
+import com.zurrtum.create.catnip.config.ConfigBase;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;

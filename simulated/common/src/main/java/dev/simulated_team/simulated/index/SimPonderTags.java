@@ -1,11 +1,11 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.AllBlocks;
-import com.simibubi.create.AllItems;
-import com.simibubi.create.infrastructure.ponder.AllCreatePonderTags;
+import com.zurrtum.create.AllBlocks;
+import com.zurrtum.create.AllItems;
+import com.zurrtum.create.client.infrastructure.ponder.AllCreatePonderTags;
 import dev.simulated_team.simulated.Simulated;
-import net.createmod.catnip.registry.RegisteredObjectsHelper;
-import net.createmod.ponder.api.registration.PonderTagRegistrationHelper;
+import com.zurrtum.create.catnip.registry.RegisteredObjectsHelper;
+import com.zurrtum.create.client.ponder.api.registration.PonderTagRegistrationHelper;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.item.Items;

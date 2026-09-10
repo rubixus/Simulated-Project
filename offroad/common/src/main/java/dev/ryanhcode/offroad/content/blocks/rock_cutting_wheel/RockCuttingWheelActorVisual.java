@@ -1,14 +1,14 @@
 package dev.ryanhcode.offroad.content.blocks.rock_cutting_wheel;
 
-import com.simibubi.create.content.contraptions.behaviour.MovementContext;
-import com.simibubi.create.content.contraptions.render.ActorVisual;
+import com.zurrtum.create.content.contraptions.behaviour.MovementContext;
+import com.zurrtum.create.client.content.contraptions.render.ActorVisual;
 import dev.engine_room.flywheel.api.visualization.VisualizationContext;
 import dev.engine_room.flywheel.lib.instance.InstanceTypes;
 import dev.engine_room.flywheel.lib.instance.TransformedInstance;
 import dev.engine_room.flywheel.lib.model.Models;
 import dev.ryanhcode.offroad.index.OffroadPartialModels;
-import net.createmod.catnip.animation.AnimationTickHolder;
-import net.createmod.catnip.animation.LerpedFloat;
+import com.zurrtum.create.client.catnip.animation.AnimationTickHolder;
+import com.zurrtum.create.catnip.animation.LerpedFloat;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.BlockAndTintGetter;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;

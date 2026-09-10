@@ -1,12 +1,12 @@
 package dev.eriksonn.aeronautics.content.blocks.propeller.behaviour;
 
-import com.simibubi.create.api.equipment.goggles.IHaveGoggleInformation;
-import com.simibubi.create.content.contraptions.AbstractContraptionEntity;
-import com.simibubi.create.content.equipment.armor.DivingBootsItem;
-import com.simibubi.create.content.kinetics.fan.AirCurrent;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
-import com.simibubi.create.foundation.blockEntity.behaviour.BehaviourType;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.client.api.goggles.IHaveGoggleInformation;
+import com.zurrtum.create.content.contraptions.AbstractContraptionEntity;
+import com.zurrtum.create.content.equipment.armor.DivingBootsItem;
+import com.zurrtum.create.content.kinetics.fan.AirCurrent;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.behaviour.BehaviourType;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import dev.eriksonn.aeronautics.content.particle.PropellerAirParticle;
 import dev.eriksonn.aeronautics.content.particle.PropellerAirParticleData;
 import dev.eriksonn.aeronautics.data.AeroLang;
@@ -17,7 +17,7 @@ import dev.ryanhcode.sable.companion.math.JOMLConversion;
 import dev.ryanhcode.sable.physics.config.dimension_physics.DimensionPhysicsData;
 import dev.ryanhcode.sable.sublevel.SubLevel;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import net.createmod.catnip.outliner.Outliner;
+import com.zurrtum.create.client.catnip.outliner.Outliner;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.BlockParticleOption;

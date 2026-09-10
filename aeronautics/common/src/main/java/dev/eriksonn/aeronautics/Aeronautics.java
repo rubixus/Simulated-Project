@@ -1,9 +1,9 @@
 package dev.eriksonn.aeronautics;
 
-import com.simibubi.create.foundation.item.ItemDescription;
-import com.simibubi.create.foundation.item.KineticStats;
-import com.simibubi.create.foundation.item.TooltipHelper;
-import com.simibubi.create.foundation.item.TooltipModifier;
+import com.zurrtum.create.client.foundation.item.ItemDescription;
+import com.zurrtum.create.client.foundation.item.KineticStats;
+import com.zurrtum.create.client.foundation.item.TooltipHelper;
+import com.zurrtum.create.client.foundation.item.TooltipModifier;
 import dev.simulated_team.simulated.util.SimColors;
 import com.tterrag.registrate.providers.ProviderType;
 import com.tterrag.registrate.util.nullness.NonNullSupplier;
@@ -13,7 +13,7 @@ import dev.eriksonn.aeronautics.index.*;
 import dev.eriksonn.aeronautics.network.AeroPacketManager;
 import dev.eriksonn.aeronautics.registry.AeroRegistrate;
 import dev.ryanhcode.sable.platform.SableEventPlatform;
-import net.createmod.catnip.lang.FontHelper;
+import com.zurrtum.create.client.catnip.lang.FontHelper;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;

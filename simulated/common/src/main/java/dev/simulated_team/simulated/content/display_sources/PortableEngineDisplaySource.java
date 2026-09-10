@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.display_sources;
 
-import com.simibubi.create.content.redstone.displayLink.DisplayLinkContext;
-import com.simibubi.create.content.redstone.displayLink.target.DisplayTargetStats;
+import com.zurrtum.create.content.redstone.displayLink.DisplayLinkContext;
+import com.zurrtum.create.content.redstone.displayLink.target.DisplayTargetStats;
 import dev.simulated_team.simulated.content.blocks.portable_engine.PortableEngineBlockEntity;
 import dev.simulated_team.simulated.data.SimLang;
 import net.minecraft.network.chat.Component;

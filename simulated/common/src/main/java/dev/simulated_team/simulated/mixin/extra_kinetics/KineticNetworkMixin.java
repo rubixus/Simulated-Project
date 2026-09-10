@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.extra_kinetics;
 
-import com.simibubi.create.content.kinetics.KineticNetwork;
+import com.zurrtum.create.content.kinetics.KineticNetwork;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraBlockPos;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
 import net.minecraft.core.BlockPos;

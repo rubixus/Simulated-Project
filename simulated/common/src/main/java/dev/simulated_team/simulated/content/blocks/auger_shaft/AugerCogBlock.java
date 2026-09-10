@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.auger_shaft;
 
-import com.simibubi.create.content.kinetics.simpleRelays.ICogWheel;
+import com.zurrtum.create.content.kinetics.simpleRelays.ICogWheel;
 import dev.simulated_team.simulated.index.SimBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionResult;

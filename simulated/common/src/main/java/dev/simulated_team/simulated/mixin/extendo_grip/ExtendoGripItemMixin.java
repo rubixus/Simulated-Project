@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.extendo_grip;
 
-import com.simibubi.create.content.equipment.extendoGrip.ExtendoGripItem;
+import com.zurrtum.create.content.equipment.extendoGrip.ExtendoGripItem;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;

@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.content.display_sources;
 
-import com.simibubi.create.content.redstone.displayLink.DisplayLinkContext;
-import com.simibubi.create.content.redstone.displayLink.source.SingleLineDisplaySource;
-import com.simibubi.create.content.redstone.displayLink.target.DisplayTargetStats;
-import com.simibubi.create.foundation.gui.ModularGuiLineBuilder;
+import com.zurrtum.create.content.redstone.displayLink.DisplayLinkContext;
+import com.zurrtum.create.content.redstone.displayLink.source.SingleLineDisplaySource;
+import com.zurrtum.create.content.redstone.displayLink.target.DisplayTargetStats;
+import com.zurrtum.create.client.foundation.gui.ModularGuiLineBuilder;
 import dev.simulated_team.simulated.content.blocks.nav_table.NavTableBlockEntity;
 import dev.simulated_team.simulated.content.blocks.nav_table.navigation_target.NavigationTarget;
 import dev.simulated_team.simulated.data.SimLang;

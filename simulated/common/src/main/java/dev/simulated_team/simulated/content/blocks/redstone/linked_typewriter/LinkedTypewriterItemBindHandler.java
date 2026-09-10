@@ -1,10 +1,10 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter;
 
 import com.mojang.blaze3d.platform.InputConstants;
-import com.simibubi.create.content.redstone.link.RedstoneLinkBlockEntity;
-import com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler;
-import com.simibubi.create.foundation.item.TooltipHelper;
-import com.simibubi.create.foundation.utility.CreateLang;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkBlockEntity;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkNetworkHandler;
+import com.zurrtum.create.client.foundation.item.TooltipHelper;
+import com.zurrtum.create.client.foundation.utility.CreateLang;
 import dev.simulated_team.simulated.content.blocks.redstone.AbstractLinkedReceiverBlockEntity;
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.index.SimBlocks;
@@ -12,9 +12,9 @@ import dev.simulated_team.simulated.mixin.accessor.RedstoneLinkBlockEntityAccess
 import dev.simulated_team.simulated.network.packets.linked_typewriter.TypewriterSaveKeyToItemPacket;
 import dev.simulated_team.simulated.util.SimColors;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.data.Couple;
-import net.createmod.catnip.lang.FontHelper;
-import net.createmod.catnip.outliner.Outliner;
+import com.zurrtum.create.catnip.data.Couple;
+import com.zurrtum.create.client.catnip.lang.FontHelper;
+import com.zurrtum.create.client.catnip.outliner.Outliner;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;

@@ -19,7 +19,7 @@ import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 import org.lwjgl.glfw.GLFW;
 
-import static com.simibubi.create.foundation.utility.RaycastHelper.getTraceTarget;
+import static com.zurrtum.create.client.foundation.utility.RaycastHelper.getTraceTarget;
 
 public class LevititeClientCatalyzerHandler implements InteractCallback {
     @NotNull

@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen;
 
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler;
-import com.simibubi.create.foundation.gui.AllIcons;
-import com.simibubi.create.foundation.gui.widget.IconButton;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkNetworkHandler;
+import com.zurrtum.create.client.foundation.gui.AllIcons;
+import com.zurrtum.create.client.foundation.gui.widget.IconButton;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.LinkedTypewriterEntries;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen.widgets.ConfirmationWidgetBase;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen.widgets.PromptWidget;

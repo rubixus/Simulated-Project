@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter;
 
-import com.simibubi.create.AllSoundEvents;
-import com.simibubi.create.content.equipment.clipboard.ClipboardCloneable;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.AllSoundEvents;
+import com.zurrtum.create.content.equipment.clipboard.ClipboardCloneable;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import dev.ryanhcode.sable.Sable;
 import dev.simulated_team.simulated.compat.computercraft.AttachedComputerHandler;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen.LinkedTypewriterMenuCommon;

@@ -1,7 +1,7 @@
 package dev.eriksonn.aeronautics.neoforge.data.recipe;
 
 import com.simibubi.create.api.data.recipe.DeployingRecipeGen;
-import com.simibubi.create.foundation.utility.DyeHelper;
+import com.zurrtum.create.client.foundation.utility.DyeHelper;
 import dev.eriksonn.aeronautics.Aeronautics;
 import dev.eriksonn.aeronautics.index.AeroBlocks;
 import net.minecraft.core.HolderLookup;

@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.display_sources;
 
-import com.simibubi.create.content.redstone.displayLink.DisplayLinkContext;
-import com.simibubi.create.content.redstone.displayLink.source.NumericSingleLineDisplaySource;
-import com.simibubi.create.foundation.gui.ModularGuiLineBuilder;
+import com.zurrtum.create.content.redstone.displayLink.DisplayLinkContext;
+import com.zurrtum.create.content.redstone.displayLink.source.NumericSingleLineDisplaySource;
+import com.zurrtum.create.client.foundation.gui.ModularGuiLineBuilder;
 import net.minecraft.network.chat.Component;
 
 import java.util.List;

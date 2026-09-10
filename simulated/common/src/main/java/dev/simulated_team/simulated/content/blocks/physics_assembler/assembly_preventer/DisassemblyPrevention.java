@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.physics_assembler.assembly_preventer;
 
-import com.simibubi.create.content.contraptions.AssemblyException;
+import com.zurrtum.create.content.contraptions.AssemblyException;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.SubLevelHelper;
 import dev.ryanhcode.sable.sublevel.ServerSubLevel;
@@ -9,7 +9,7 @@ import dev.simulated_team.simulated.content.blocks.physics_assembler.PhysicsAsse
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.mixin_interface.assembly_preventer.PrimaryAssemblerExtension;
 import dev.simulated_team.simulated.service.SimConfigService;
-import net.createmod.catnip.lang.LangBuilder;
+import com.zurrtum.create.client.catnip.lang.LangBuilder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 

@@ -1,7 +1,7 @@
 package dev.ryanhcode.offroad.neoforge.service;
 
-import com.simibubi.create.api.contraption.storage.item.MountedItemStorageWrapper;
-import com.simibubi.create.content.contraptions.MountedStorageManager;
+import com.zurrtum.create.api.contraption.storage.item.MountedItemStorageWrapper;
+import com.zurrtum.create.content.contraptions.MountedStorageManager;
 import dev.ryanhcode.offroad.content.blocks.borehead_bearing.BoreheadBearingBlockEntity;
 import dev.ryanhcode.offroad.content.blocks.borehead_bearing.BoreheadAttachedStorage;
 import dev.ryanhcode.offroad.service.OffroadMountedStorageService;

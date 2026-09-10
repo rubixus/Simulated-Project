@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.gametest;
 
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.redstone.analogLever.AnalogLeverBlockEntity;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.redstone.analogLever.AnalogLeverBlockEntity;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.SubLevelHelper;
 import dev.ryanhcode.sable.companion.math.BoundingBox3d;

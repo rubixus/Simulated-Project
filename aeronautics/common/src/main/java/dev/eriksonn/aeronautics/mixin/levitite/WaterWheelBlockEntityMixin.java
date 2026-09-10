@@ -2,7 +2,7 @@ package dev.eriksonn.aeronautics.mixin.levitite;
 
 import com.llamalad7.mixinextras.injector.ModifyReturnValue;
 import com.llamalad7.mixinextras.sugar.Local;
-import com.simibubi.create.content.kinetics.waterwheel.WaterWheelBlockEntity;
+import com.zurrtum.create.content.kinetics.waterwheel.WaterWheelBlockEntity;
 import dev.eriksonn.aeronautics.service.AeroLevititeService;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.phys.Vec3;

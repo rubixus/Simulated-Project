@@ -2,8 +2,8 @@ package dev.simulated_team.simulated.content.item_attributes;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.content.logistics.item.filter.attribute.ItemAttribute;
-import com.simibubi.create.content.logistics.item.filter.attribute.ItemAttributeType;
+import com.zurrtum.create.content.logistics.item.filter.attribute.ItemAttribute;
+import com.zurrtum.create.content.logistics.item.filter.attribute.ItemAttributeType;
 import dev.ryanhcode.sable.mixinterface.block_properties.BlockStateExtension;
 import dev.ryanhcode.sable.physics.config.block_properties.PhysicsBlockPropertyTypes;
 import dev.simulated_team.simulated.index.SimItemAttributeTypes;

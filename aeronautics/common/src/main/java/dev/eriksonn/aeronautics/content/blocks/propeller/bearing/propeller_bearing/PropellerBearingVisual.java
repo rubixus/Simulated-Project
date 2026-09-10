@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.content.blocks.propeller.bearing.propeller_bearing;
 
 import com.mojang.math.Axis;
-import com.simibubi.create.AllPartialModels;
-import com.simibubi.create.content.kinetics.base.OrientedRotatingVisual;
+import com.zurrtum.create.client.AllPartialModels;
+import com.zurrtum.create.client.content.kinetics.base.OrientedRotatingVisual;
 import dev.simulated_team.simulated.util.SimMathUtils;
 import dev.engine_room.flywheel.api.instance.Instance;
 import dev.engine_room.flywheel.api.visualization.VisualizationContext;

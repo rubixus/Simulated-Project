@@ -1,15 +1,15 @@
 package dev.simulated_team.simulated.content.blocks.analog_transmission;
 
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.simpleRelays.ICogWheel;
-import com.simibubi.create.foundation.item.TooltipHelper;
-import com.simibubi.create.infrastructure.config.AllConfigs;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.simpleRelays.ICogWheel;
+import com.zurrtum.create.client.foundation.item.TooltipHelper;
+import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.mixin_interface.extra_kinetics.KineticBlockEntityExtension;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraBlockPos;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
-import net.createmod.catnip.lang.FontHelper;
+import com.zurrtum.create.client.catnip.lang.FontHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.HolderLookup;
@@ -215,7 +215,7 @@ public class AnalogTransmissionBlockEntity extends KineticBlockEntity implements
         private final KineticBlockEntity parentBlockEntity;
 
         /**
-         * @param pos An ExtraBlockPos associated with this ExtraKinetic BlockEntity. This is needed to inform the {@link com.simibubi.create.content.kinetics.RotationPropagator} that this BlockEntity is an ExtraKinetic one.
+         * @param pos An ExtraBlockPos associated with this ExtraKinetic BlockEntity. This is needed to inform the {@link com.zurrtum.create.content.kinetics.RotationPropagator} that this BlockEntity is an ExtraKinetic one.
          */
         public AnalogTransmissionCogwheel(final BlockEntityType<?> typeIn, final ExtraBlockPos pos, final BlockState state, final KineticBlockEntity parentBlockEntity) {
             super(typeIn, pos, state);

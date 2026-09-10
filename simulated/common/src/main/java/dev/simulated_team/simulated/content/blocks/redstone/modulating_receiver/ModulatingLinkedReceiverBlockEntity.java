@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.redstone.modulating_receiver;
 
 
-import com.simibubi.create.content.equipment.clipboard.ClipboardCloneable;
+import com.zurrtum.create.content.equipment.clipboard.ClipboardCloneable;
 import dev.simulated_team.simulated.content.blocks.redstone.AbstractLinkedReceiverBlockEntity;
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.BlockPos;

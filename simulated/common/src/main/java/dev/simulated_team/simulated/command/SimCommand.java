@@ -6,7 +6,7 @@ import com.mojang.brigadier.arguments.IntegerArgumentType;
 import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import com.simibubi.create.content.contraptions.glue.SuperGlueEntity;
+import com.zurrtum.create.content.contraptions.glue.SuperGlueEntity;
 import dev.ryanhcode.sable.api.command.SubLevelArgumentType;
 import dev.ryanhcode.sable.sublevel.ServerSubLevel;
 import dev.simulated_team.simulated.content.entities.honey_glue.HoneyGlueEntity;

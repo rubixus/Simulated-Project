@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.util.extra_kinetics;
 
-import com.simibubi.create.content.kinetics.base.IRotate;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.base.IRotate;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
 import dev.simulated_team.simulated.data.SimLang;
 import net.minecraft.network.chat.Component;
 import org.jetbrains.annotations.Nullable;

@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.extra_kinetics.goggle_tooltips;
 
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
 import net.minecraft.ChatFormatting;

@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.content.processing.sequenced.SequencedAssemblyItem;
+import com.zurrtum.create.content.processing.sequenced.SequencedAssemblyItem;
 import com.simibubi.create.foundation.data.AssetLookup;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.recipe.CommonMetal;

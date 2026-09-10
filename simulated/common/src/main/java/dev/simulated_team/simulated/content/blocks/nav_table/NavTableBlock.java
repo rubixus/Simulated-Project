@@ -1,10 +1,10 @@
 package dev.simulated_team.simulated.content.blocks.nav_table;
 
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.api.schematic.requirement.SpecialBlockItemRequirement;
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
-import com.simibubi.create.content.schematics.requirement.ItemRequirement;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.api.schematic.requirement.SpecialBlockItemRequirement;
+import com.zurrtum.create.content.equipment.wrench.IWrenchable;
+import com.zurrtum.create.content.schematics.requirement.ItemRequirement;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.content.blocks.nav_table.navigation_target.NavigationTarget;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.index.SimBlockShapes;

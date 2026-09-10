@@ -1,7 +1,7 @@
 package dev.eriksonn.aeronautics.content.blocks.mounted_potato_cannon;
 
-import com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.kinetics.base.DirectionalAxisKineticBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.eriksonn.aeronautics.index.AeroBlockEntityTypes;
 import dev.eriksonn.aeronautics.index.AeroBlockShapes;
 import dev.simulated_team.simulated.multiloader.inventory.ContainerSlot;

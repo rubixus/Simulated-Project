@@ -2,9 +2,9 @@ package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.s
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.simibubi.create.foundation.gui.AllIcons;
-import com.simibubi.create.foundation.gui.menu.AbstractSimiContainerScreen;
-import com.simibubi.create.foundation.gui.widget.IconButton;
+import com.zurrtum.create.client.foundation.gui.AllIcons;
+import com.zurrtum.create.client.foundation.gui.menu.AbstractSimiContainerScreen;
+import com.zurrtum.create.client.foundation.gui.widget.IconButton;
 import dev.engine_room.flywheel.lib.transform.PoseTransformStack;
 import dev.engine_room.flywheel.lib.transform.TransformStack;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.LinkedTypewriterBlock;
@@ -20,8 +20,8 @@ import dev.simulated_team.simulated.network.packets.linked_typewriter.Typewriter
 import dev.simulated_team.simulated.network.packets.linked_typewriter.TypewriterKeySavePacket;
 import dev.simulated_team.simulated.util.SimColors;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.gui.element.GuiGameElement;
-import net.createmod.catnip.gui.element.ScreenElement;
+import com.zurrtum.create.client.catnip.gui.element.GuiGameElement;
+import com.zurrtum.create.client.catnip.gui.element.ScreenElement;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.events.GuiEventListener;

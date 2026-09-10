@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.network.packets.helpers;
 
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
-import com.simibubi.create.foundation.blockEntity.SyncedBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SyncedBlockEntity;
 import foundry.veil.api.network.handler.ServerPacketContext;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.protocol.common.custom.CustomPacketPayload;

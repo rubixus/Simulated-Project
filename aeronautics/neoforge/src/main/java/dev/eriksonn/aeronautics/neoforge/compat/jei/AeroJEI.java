@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.neoforge.compat.jei;
 
-import com.simibubi.create.Create;
+import com.zurrtum.create.Create;
 import com.simibubi.create.compat.jei.ConversionRecipe;
 import com.simibubi.create.content.processing.recipe.StandardProcessingRecipe;
 import dev.eriksonn.aeronautics.Aeronautics;

@@ -1,10 +1,10 @@
 package dev.eriksonn.aeronautics.index;
 
 import com.simibubi.create.api.registry.CreateBuiltInRegistries;
-import com.simibubi.create.content.kinetics.mechanicalArm.AllArmInteractionPointTypes;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmBlockEntity;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmInteractionPoint;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmInteractionPointType;
+import com.zurrtum.create.content.kinetics.mechanicalArm.AllArmInteractionPointTypes;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmBlockEntity;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmInteractionPoint;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmInteractionPointType;
 import dev.eriksonn.aeronautics.Aeronautics;
 import dev.eriksonn.aeronautics.content.blocks.mounted_potato_cannon.MountedPotatoCannonBlockEntity;
 import net.minecraft.core.BlockPos;

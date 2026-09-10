@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.content.blocks.hot_air.hot_air_burner;
 
 
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.equipment.wrench.IWrenchable;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.eriksonn.aeronautics.index.AeroBlockEntityTypes;
 import dev.eriksonn.aeronautics.index.AeroBlockShapes;
 import dev.eriksonn.aeronautics.index.AeroTags;

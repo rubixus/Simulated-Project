@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.handle;
 
-import com.simibubi.create.content.equipment.extendoGrip.ExtendoGripRenderHandler;
+import com.zurrtum.create.client.content.equipment.extendoGrip.ExtendoGripRenderHandler;
 import dev.simulated_team.simulated.index.SimClickInteractions;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

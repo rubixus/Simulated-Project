@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.directional_gearshift;
 
-import com.simibubi.create.content.kinetics.transmission.SplitShaftBlockEntity;
+import com.zurrtum.create.content.kinetics.transmission.SplitShaftBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.entity.BlockEntityType;

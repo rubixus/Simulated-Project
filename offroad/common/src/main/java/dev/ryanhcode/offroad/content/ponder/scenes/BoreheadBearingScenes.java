@@ -1,8 +1,8 @@
 package dev.ryanhcode.offroad.content.ponder.scenes;
 
-import com.simibubi.create.AllItems;
-import com.simibubi.create.content.redstone.analogLever.AnalogLeverBlockEntity;
-import com.simibubi.create.foundation.ponder.CreateSceneBuilder;
+import com.zurrtum.create.AllItems;
+import com.zurrtum.create.content.redstone.analogLever.AnalogLeverBlockEntity;
+import com.zurrtum.create.client.foundation.ponder.CreateSceneBuilder;
 import dev.simulated_team.simulated.content.blocks.analog_transmission.AnalogTransmissionBlockEntity;
 import dev.simulated_team.simulated.ponder.SmoothMovementUtils;
 import dev.simulated_team.simulated.ponder.instructions.CustomAnimateWorldSectionInstruction;
@@ -14,11 +14,11 @@ import dev.ryanhcode.offroad.content.blocks.borehead_bearing.BoreheadBearingBloc
 import dev.ryanhcode.offroad.content.blocks.rock_cutting_wheel.RockCuttingWheelBlockEntity;
 import dev.ryanhcode.offroad.content.ponder.instructions.ChangeBoreheadAndContraptionSpeedInstruction;
 import dev.ryanhcode.offroad.content.ponder.instructions.StopBoreheadBearingAndContraptionInstruction;
-import net.createmod.ponder.api.PonderPalette;
-import net.createmod.ponder.api.element.ElementLink;
-import net.createmod.ponder.api.element.WorldSectionElement;
+import com.zurrtum.create.client.ponder.api.PonderPalette;
+import com.zurrtum.create.client.ponder.api.element.ElementLink;
+import com.zurrtum.create.client.ponder.api.element.WorldSectionElement;
 import net.createmod.ponder.api.scene.*;
-import net.createmod.ponder.foundation.instruction.FadeOutOfSceneInstruction;
+import com.zurrtum.create.client.ponder.foundation.instruction.FadeOutOfSceneInstruction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.particles.ParticleTypes;

@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.compat.jei;
 
-import com.simibubi.create.compat.jei.GhostIngredientHandler;
+import com.zurrtum.create.client.compat.jei.GhostIngredientHandler;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.client.SearchAlias;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen.LinkedTypewriterScreen;

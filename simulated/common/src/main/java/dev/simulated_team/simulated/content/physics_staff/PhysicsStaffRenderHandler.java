@@ -2,7 +2,7 @@ package dev.simulated_team.simulated.content.physics_staff;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.simibubi.create.AllSpecialTextures;
+import com.zurrtum.create.client.AllSpecialTextures;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.SubLevelHelper;
 import dev.ryanhcode.sable.api.sublevel.SubLevelContainer;
@@ -15,7 +15,7 @@ import dev.simulated_team.simulated.index.SimRenderTypes;
 import foundry.veil.api.client.color.Color;
 import foundry.veil.api.client.render.MatrixStack;
 import foundry.veil.api.event.VeilRenderLevelStageEvent;
-import net.createmod.catnip.outliner.Outliner;
+import com.zurrtum.create.client.catnip.outliner.Outliner;
 import net.minecraft.client.Camera;
 import net.minecraft.client.DeltaTracker;
 import net.minecraft.client.Minecraft;

@@ -2,8 +2,8 @@ package dev.ryanhcode.offroad.neoforge.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
-import com.simibubi.create.api.contraption.storage.item.MountedItemStorage;
-import com.simibubi.create.content.contraptions.Contraption;
+import com.zurrtum.create.api.contraption.storage.item.MountedItemStorage;
+import com.zurrtum.create.content.contraptions.Contraption;
 import dev.ryanhcode.offroad.content.contraptions.borehead_contraption.BoreheadBearingContraption;
 import dev.ryanhcode.offroad.neoforge.mixin_helpers.WrappedWrappedMountedItemStorage;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;

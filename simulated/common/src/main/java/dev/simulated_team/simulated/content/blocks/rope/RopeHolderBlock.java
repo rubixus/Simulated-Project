@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.rope;
 
-import com.simibubi.create.foundation.block.IBE;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.block.IBE;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.block.BlockSubLevelAssemblyListener;
 import dev.ryanhcode.sable.sublevel.SubLevel;

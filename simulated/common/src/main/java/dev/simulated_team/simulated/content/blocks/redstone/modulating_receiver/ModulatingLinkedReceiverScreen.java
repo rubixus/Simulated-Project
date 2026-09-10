@@ -2,9 +2,9 @@ package dev.simulated_team.simulated.content.blocks.redstone.modulating_receiver
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.*;
-import com.simibubi.create.foundation.gui.AllIcons;
-import com.simibubi.create.foundation.gui.widget.IconButton;
-import com.simibubi.create.foundation.gui.widget.ScrollInput;
+import com.zurrtum.create.client.foundation.gui.AllIcons;
+import com.zurrtum.create.client.foundation.gui.widget.IconButton;
+import com.zurrtum.create.client.foundation.gui.widget.ScrollInput;
 import dev.engine_room.flywheel.lib.transform.PoseTransformStack;
 import dev.engine_room.flywheel.lib.transform.TransformStack;
 import dev.simulated_team.simulated.data.SimLang;
@@ -13,10 +13,10 @@ import dev.simulated_team.simulated.index.SimPartialModels;
 import dev.simulated_team.simulated.network.packets.ConfigureModulatingLinkedRecieverPacket;
 import dev.simulated_team.simulated.util.SimColors;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.data.Iterate;
-import net.createmod.catnip.gui.AbstractSimiScreen;
-import net.createmod.catnip.gui.ScreenOpener;
-import net.createmod.catnip.gui.element.GuiGameElement;
+import com.zurrtum.create.catnip.data.Iterate;
+import com.zurrtum.create.client.catnip.gui.AbstractSimiScreen;
+import com.zurrtum.create.client.catnip.gui.ScreenOpener;
+import com.zurrtum.create.client.catnip.gui.element.GuiGameElement;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.core.BlockPos;

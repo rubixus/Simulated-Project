@@ -2,8 +2,8 @@ package dev.ryanhcode.offroad.mixin;
 
 import com.llamalad7.mixinextras.injector.wrapmethod.WrapMethod;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
-import com.simibubi.create.content.kinetics.RotationPropagator;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.RotationPropagator;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
 import dev.ryanhcode.offroad.content.blocks.borehead_bearing.BoreheadBearingBlockEntity;
 import net.minecraft.core.Direction;
 import org.spongepowered.asm.mixin.Mixin;

@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter;
 
-import com.simibubi.create.AllDataComponents;
-import com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler;
-import com.simibubi.create.foundation.utility.ControlsUtil;
+import com.zurrtum.create.AllDataComponents;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkNetworkHandler;
+import com.zurrtum.create.client.foundation.utility.ControlsUtil;
 import dev.simulated_team.simulated.index.SimSoundEvents;
 import dev.simulated_team.simulated.mixin.accessor.KeyMappingsAccessor;
 import dev.simulated_team.simulated.network.packets.linked_typewriter.TypewriterDisconnectUser;

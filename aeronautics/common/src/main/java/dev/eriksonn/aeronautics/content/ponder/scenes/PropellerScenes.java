@@ -1,9 +1,9 @@
 package dev.eriksonn.aeronautics.content.ponder.scenes;
 
-import com.simibubi.create.AllItems;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
-import com.simibubi.create.content.kinetics.gearbox.GearboxBlockEntity;
-import com.simibubi.create.foundation.ponder.CreateSceneBuilder;
+import com.zurrtum.create.AllItems;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.gearbox.GearboxBlockEntity;
+import com.zurrtum.create.client.foundation.ponder.CreateSceneBuilder;
 import dev.eriksonn.aeronautics.content.blocks.propeller.small.BasePropellerBlock;
 import dev.eriksonn.aeronautics.content.ponder.instructions.*;
 import dev.eriksonn.aeronautics.content.ponder.instructions.RedstoneSignalInstruction;
@@ -14,8 +14,8 @@ import dev.simulated_team.simulated.ponder.instructions.*;
 import dev.eriksonn.aeronautics.content.ponder.instructions.CustomGyroBearingTiltInstruction;
 import dev.eriksonn.aeronautics.content.ponder.instructions.PropellerParticleSpawningInstruction;
 import it.unimi.dsi.fastutil.floats.FloatUnaryOperator;
-import net.createmod.catnip.math.Pointing;
-import net.createmod.ponder.api.PonderPalette;
+import com.zurrtum.create.catnip.math.Pointing;
+import com.zurrtum.create.client.ponder.api.PonderPalette;
 import net.createmod.ponder.api.element.*;
 import net.createmod.ponder.api.scene.*;
 import net.createmod.ponder.foundation.instruction.*;

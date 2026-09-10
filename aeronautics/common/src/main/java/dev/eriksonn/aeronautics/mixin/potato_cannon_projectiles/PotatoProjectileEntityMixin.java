@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.mixin.potato_cannon_projectiles;
 
-import com.simibubi.create.content.equipment.potatoCannon.PotatoProjectileEntity;
+import com.zurrtum.create.content.equipment.potatoCannon.PotatoProjectileEntity;
 import dev.eriksonn.aeronautics.index.AeroAdvancements;
 import dev.eriksonn.aeronautics.mixinterface.PotatoProjectileEntityExtension;
 import net.minecraft.core.BlockPos;

@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.mixin.propeller_bearing;
 
-import com.simibubi.create.content.contraptions.AssemblyException;
-import com.simibubi.create.content.contraptions.bearing.BearingContraption;
-import com.simibubi.create.infrastructure.config.AllConfigs;
+import com.zurrtum.create.content.contraptions.AssemblyException;
+import com.zurrtum.create.content.contraptions.bearing.BearingContraption;
+import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.eriksonn.aeronautics.content.blocks.propeller.bearing.propeller_bearing.BearingContraptionExtension;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;

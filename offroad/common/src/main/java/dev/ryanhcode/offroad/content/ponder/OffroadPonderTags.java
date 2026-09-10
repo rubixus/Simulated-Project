@@ -1,7 +1,7 @@
 package dev.ryanhcode.offroad.content.ponder;
 
-import net.createmod.catnip.registry.RegisteredObjectsHelper;
-import net.createmod.ponder.api.registration.PonderTagRegistrationHelper;
+import com.zurrtum.create.catnip.registry.RegisteredObjectsHelper;
+import com.zurrtum.create.client.ponder.api.registration.PonderTagRegistrationHelper;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.ItemLike;
 

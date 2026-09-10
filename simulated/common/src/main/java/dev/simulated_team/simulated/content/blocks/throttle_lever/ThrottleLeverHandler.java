@@ -2,13 +2,13 @@ package dev.simulated_team.simulated.content.blocks.throttle_lever;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
-import com.simibubi.create.foundation.gui.AllGuiTextures;
+import com.zurrtum.create.client.foundation.gui.AllGuiTextures;
 import dev.simulated_team.simulated.network.packets.ThrottleLeverSignalPacket;
 import dev.simulated_team.simulated.util.SimColors;
 import dev.simulated_team.simulated.util.hold_interaction.BlockHoldInteraction;
 import foundry.veil.api.network.VeilPacketManager;
-import net.createmod.catnip.animation.AnimationTickHolder;
-import net.createmod.catnip.gui.UIRenderHelper;
+import com.zurrtum.create.client.catnip.animation.AnimationTickHolder;
+import com.zurrtum.create.client.catnip.gui.UIRenderHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.player.LocalPlayer;

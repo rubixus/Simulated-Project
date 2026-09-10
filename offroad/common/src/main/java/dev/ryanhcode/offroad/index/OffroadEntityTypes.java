@@ -1,7 +1,7 @@
 package dev.ryanhcode.offroad.index;
 
-import com.simibubi.create.content.contraptions.render.ContraptionEntityRenderer;
-import com.simibubi.create.content.contraptions.render.ContraptionVisual;
+import com.zurrtum.create.client.content.contraptions.render.ContraptionEntityRenderer;
+import com.zurrtum.create.client.content.contraptions.render.ContraptionVisual;
 import dev.simulated_team.simulated.registrate.SimulatedRegistrate;
 import com.tterrag.registrate.util.entry.EntityEntry;
 import dev.ryanhcode.offroad.Offroad;

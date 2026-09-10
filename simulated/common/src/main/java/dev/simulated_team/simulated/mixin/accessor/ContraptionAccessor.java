@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.accessor;
 
-import com.simibubi.create.content.contraptions.Contraption;
+import com.zurrtum.create.content.contraptions.Contraption;
 import net.minecraft.world.phys.AABB;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Accessor;

@@ -1,15 +1,15 @@
 package dev.ryanhcode.offroad.content.blocks.borehead_bearing;
 
-import com.simibubi.create.api.contraption.BlockMovementChecks;
-import com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.api.contraption.BlockMovementChecks;
+import com.zurrtum.create.content.kinetics.base.DirectionalAxisKineticBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.api.CustomStressImpactTooltipProvider;
 import dev.simulated_team.simulated.index.SimBlockMovementChecks;
 import dev.ryanhcode.offroad.data.OffroadLang;
 import dev.ryanhcode.offroad.index.OffroadBlockEntityTypes;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import it.unimi.dsi.fastutil.objects.ObjectList;
-import net.createmod.catnip.lang.LangBuilder;
+import com.zurrtum.create.client.catnip.lang.LangBuilder;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionHand;

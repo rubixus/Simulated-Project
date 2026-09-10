@@ -1,16 +1,16 @@
 package dev.ryanhcode.offroad.content.blocks.borehead_bearing;
 
-import com.simibubi.create.content.contraptions.AssemblyException;
-import com.simibubi.create.content.contraptions.ControlledContraptionEntity;
-import com.simibubi.create.content.contraptions.bearing.BearingContraption;
-import com.simibubi.create.content.contraptions.bearing.MechanicalBearingBlockEntity;
-import com.simibubi.create.content.contraptions.behaviour.MovementContext;
-import com.simibubi.create.content.kinetics.KineticNetwork;
-import com.simibubi.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
-import com.simibubi.create.foundation.item.TooltipHelper;
-import com.simibubi.create.foundation.utility.ServerSpeedProvider;
-import com.simibubi.create.infrastructure.config.AllConfigs;
+import com.zurrtum.create.content.contraptions.AssemblyException;
+import com.zurrtum.create.content.contraptions.ControlledContraptionEntity;
+import com.zurrtum.create.content.contraptions.bearing.BearingContraption;
+import com.zurrtum.create.content.contraptions.bearing.MechanicalBearingBlockEntity;
+import com.zurrtum.create.content.contraptions.behaviour.MovementContext;
+import com.zurrtum.create.content.kinetics.KineticNetwork;
+import com.zurrtum.create.content.kinetics.base.BlockBreakingKineticBlockEntity;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.client.foundation.item.TooltipHelper;
+import com.zurrtum.create.foundation.utility.ServerSpeedProvider;
+import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.ryanhcode.offroad.config.OffroadConfig;
 import dev.ryanhcode.offroad.content.blocks.rock_cutting_wheel.RockCuttingWheelBlock;
 import dev.ryanhcode.offroad.content.contraptions.borehead_contraption.BoreheadBearingContraption;
@@ -27,7 +27,7 @@ import dev.simulated_team.simulated.multiloader.inventory.InventoryLoaderWrapper
 import dev.simulated_team.simulated.multiloader.inventory.ItemInfoWrapper;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
 import it.unimi.dsi.fastutil.objects.ObjectOpenHashSet;
-import net.createmod.catnip.lang.FontHelper;
+import com.zurrtum.create.client.catnip.lang.FontHelper;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

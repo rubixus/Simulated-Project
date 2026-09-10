@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.content.blocks.mounted_potato_cannon;
 
-import com.simibubi.create.api.equipment.potatoCannon.PotatoCannonProjectileType;
-import com.simibubi.create.api.registry.CreateRegistries;
-import com.simibubi.create.content.equipment.potatoCannon.PotatoCannonItem;
+import com.zurrtum.create.api.equipment.potatoCannon.PotatoCannonProjectileType;
+import com.zurrtum.create.api.registry.CreateRegistries;
+import com.zurrtum.create.content.equipment.potatoCannon.PotatoCannonItem;
 import dev.simulated_team.simulated.multiloader.inventory.ContainerSlot;
 import dev.simulated_team.simulated.multiloader.inventory.ItemInfoWrapper;
 import dev.simulated_team.simulated.multiloader.inventory.SingleSlotContainer;

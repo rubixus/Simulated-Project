@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.content.blocks.redstone_magnet;
 
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
-import com.simibubi.create.foundation.blockEntity.behaviour.BehaviourType;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.behaviour.BehaviourType;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import dev.simulated_team.simulated.util.SimMovementContext;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.SectionPos;

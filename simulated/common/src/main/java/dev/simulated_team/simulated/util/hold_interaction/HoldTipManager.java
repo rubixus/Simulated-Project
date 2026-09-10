@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.util.hold_interaction;
 
-import com.simibubi.create.CreateClient;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
-import com.simibubi.create.foundation.blockEntity.behaviour.BlockEntityBehaviour;
+import com.zurrtum.create.CreateClient;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import dev.simulated_team.simulated.content.blocks.behaviour.HoldTipBehaviour;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.multiplayer.ClientLevel;

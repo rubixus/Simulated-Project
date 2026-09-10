@@ -2,7 +2,7 @@ package dev.simulated_team.simulated.mixin.nav_table_compat;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.simibubi.create.content.redstone.link.RedstoneLinkBlock;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkBlock;
 import net.minecraft.core.Direction;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

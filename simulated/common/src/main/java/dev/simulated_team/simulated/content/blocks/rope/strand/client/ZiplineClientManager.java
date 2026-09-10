@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.rope.strand.client;
 
 import com.simibubi.create.AllTags;
-import com.simibubi.create.foundation.utility.RaycastHelper;
+import com.zurrtum.create.client.foundation.utility.RaycastHelper;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.api.math.OrientedBoundingBox3d;
 import dev.ryanhcode.sable.companion.math.JOMLConversion;
@@ -15,7 +15,7 @@ import dev.simulated_team.simulated.util.SimMathUtils;
 import dev.simulated_team.simulated.util.click_interactions.InteractCallback;
 import foundry.veil.api.network.VeilPacketManager;
 import it.unimi.dsi.fastutil.objects.ObjectArrayList;
-import net.createmod.catnip.animation.AnimationTickHolder;
+import com.zurrtum.create.client.catnip.animation.AnimationTickHolder;
 import net.minecraft.client.KeyMapping;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.sounds.SimpleSoundInstance;

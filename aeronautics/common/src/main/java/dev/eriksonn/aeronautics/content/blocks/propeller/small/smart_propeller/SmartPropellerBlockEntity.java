@@ -1,6 +1,6 @@
 package dev.eriksonn.aeronautics.content.blocks.propeller.small.smart_propeller;
 
-import com.simibubi.create.Create;
+import com.zurrtum.create.Create;
 import dev.ryanhcode.sable.Sable;
 import dev.simulated_team.simulated.util.SimMathUtils;
 import dev.eriksonn.aeronautics.config.AeroConfig;
@@ -11,8 +11,8 @@ import dev.ryanhcode.sable.api.physics.handle.RigidBodyHandle;
 import dev.ryanhcode.sable.sublevel.ServerSubLevel;
 import dev.ryanhcode.sable.sublevel.SubLevel;
 import dev.ryanhcode.sable.companion.math.JOMLConversion;
-import net.createmod.catnip.animation.LerpedFloat;
-import net.createmod.catnip.math.VecHelper;
+import com.zurrtum.create.catnip.animation.LerpedFloat;
+import com.zurrtum.create.catnip.math.VecHelper;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.util.Mth;

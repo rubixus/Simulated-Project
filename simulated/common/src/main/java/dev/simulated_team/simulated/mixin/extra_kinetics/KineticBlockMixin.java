@@ -1,8 +1,8 @@
 package dev.simulated_team.simulated.mixin.extra_kinetics;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import com.simibubi.create.content.kinetics.base.KineticBlock;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntity;
+import com.zurrtum.create.content.kinetics.base.KineticBlock;
+import com.zurrtum.create.content.kinetics.base.KineticBlockEntity;
 import dev.simulated_team.simulated.util.extra_kinetics.ExtraKinetics;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.LevelAccessor;

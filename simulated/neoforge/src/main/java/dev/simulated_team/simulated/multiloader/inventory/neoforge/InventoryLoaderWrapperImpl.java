@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.multiloader.inventory.neoforge;
 
-import com.simibubi.create.foundation.item.ItemHelper;
-import com.simibubi.create.foundation.item.ItemHelper.ExtractionCountMode;
+import com.zurrtum.create.foundation.item.ItemHelper;
+import com.zurrtum.create.foundation.item.ItemHelper.ExtractionCountMode;
 import dev.simulated_team.simulated.multiloader.inventory.InventoryLoaderWrapper;
 import dev.simulated_team.simulated.multiloader.inventory.ItemInfoWrapper;
 import net.minecraft.world.item.ItemStack;

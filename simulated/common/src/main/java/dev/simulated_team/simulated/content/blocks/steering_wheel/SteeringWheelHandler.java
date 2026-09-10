@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.steering_wheel;
 
-import com.simibubi.create.content.equipment.goggles.GogglesItem;
+import com.zurrtum.create.content.equipment.goggles.GogglesItem;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.network.packets.SteeringWheelPacket;

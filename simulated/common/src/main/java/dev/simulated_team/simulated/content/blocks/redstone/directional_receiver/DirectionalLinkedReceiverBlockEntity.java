@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.content.blocks.redstone.directional_receiver;
 
-import com.simibubi.create.infrastructure.config.AllConfigs;
+import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.simulated_team.simulated.content.blocks.redstone.AbstractLinkedReceiverBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

@@ -2,7 +2,7 @@ package dev.ryanhcode.offroad.content.components;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import com.simibubi.create.Create;
+import com.zurrtum.create.Create;
 import dev.ryanhcode.offroad.Offroad;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.phys.Vec3;

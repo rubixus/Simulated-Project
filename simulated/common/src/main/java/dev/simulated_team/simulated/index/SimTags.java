@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.AllItems;
+import com.zurrtum.create.AllItems;
 import com.simibubi.create.AllTags;
 import com.simibubi.create.foundation.data.TagGen;
 import com.tterrag.registrate.providers.ProviderType;

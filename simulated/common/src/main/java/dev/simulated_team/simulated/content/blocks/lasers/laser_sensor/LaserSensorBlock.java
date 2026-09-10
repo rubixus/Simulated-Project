@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.content.blocks.lasers.laser_sensor;
 
-import com.simibubi.create.content.redstone.DirectedDirectionalBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.redstone.DirectedDirectionalBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.multiloader.CommonRedstoneBlock;
 import net.minecraft.core.BlockPos;

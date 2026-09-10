@@ -1,9 +1,9 @@
 package dev.ryanhcode.offroad.content.blocks.wheel_mount;
 
-import com.simibubi.create.api.schematic.requirement.SpecialBlockItemRequirement;
-import com.simibubi.create.content.kinetics.base.HorizontalKineticBlock;
-import com.simibubi.create.content.schematics.requirement.ItemRequirement;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.api.schematic.requirement.SpecialBlockItemRequirement;
+import com.zurrtum.create.content.kinetics.base.HorizontalKineticBlock;
+import com.zurrtum.create.content.schematics.requirement.ItemRequirement;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.ryanhcode.offroad.content.components.TireLike;
 import dev.ryanhcode.offroad.index.OffroadBlockEntityTypes;
 import dev.ryanhcode.offroad.index.OffroadBlocks;

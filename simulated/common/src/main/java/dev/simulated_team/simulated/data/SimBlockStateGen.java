@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.data;
 
-import com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock;
-import com.simibubi.create.content.redstone.DirectedDirectionalBlock;
+import com.zurrtum.create.content.kinetics.base.DirectionalAxisKineticBlock;
+import com.zurrtum.create.content.redstone.DirectedDirectionalBlock;
 import com.simibubi.create.foundation.data.BlockStateGen;
 import com.tterrag.registrate.builders.ItemBuilder;
 import com.tterrag.registrate.providers.DataGenContext;

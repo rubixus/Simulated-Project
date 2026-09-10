@@ -1,10 +1,10 @@
 package dev.simulated_team.simulated.index;
 
 import com.simibubi.create.api.registry.CreateBuiltInRegistries;
-import com.simibubi.create.content.kinetics.mechanicalArm.AllArmInteractionPointTypes;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmBlockEntity;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmInteractionPoint;
-import com.simibubi.create.content.kinetics.mechanicalArm.ArmInteractionPointType;
+import com.zurrtum.create.content.kinetics.mechanicalArm.AllArmInteractionPointTypes;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmBlockEntity;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmInteractionPoint;
+import com.zurrtum.create.content.kinetics.mechanicalArm.ArmInteractionPointType;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.content.blocks.portable_engine.PortableEngineBlockEntity;
 import net.minecraft.core.BlockPos;

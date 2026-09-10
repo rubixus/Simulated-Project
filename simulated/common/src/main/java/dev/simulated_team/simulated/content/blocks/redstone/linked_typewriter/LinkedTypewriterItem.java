@@ -1,11 +1,11 @@
 package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter;
 
-import com.simibubi.create.content.redstone.link.RedstoneLinkBlockEntity;
-import com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler;
-import com.simibubi.create.foundation.utility.RaycastHelper;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkBlockEntity;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkNetworkHandler;
+import com.zurrtum.create.client.foundation.utility.RaycastHelper;
 import dev.simulated_team.simulated.content.blocks.redstone.AbstractLinkedReceiverBlockEntity;
 import dev.simulated_team.simulated.mixin.accessor.RedstoneLinkBlockEntityAccessor;
-import net.createmod.catnip.data.Couple;
+import com.zurrtum.create.catnip.data.Couple;
 import net.minecraft.ChatFormatting;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.component.DataComponents;

@@ -1,8 +1,8 @@
 package dev.ryanhcode.offroad.index;
 
-import com.simibubi.create.api.contraption.ContraptionType;
+import com.zurrtum.create.api.contraption.ContraptionType;
 import com.simibubi.create.api.registry.CreateBuiltInRegistries;
-import com.simibubi.create.content.contraptions.Contraption;
+import com.zurrtum.create.content.contraptions.Contraption;
 import dev.ryanhcode.offroad.Offroad;
 import dev.ryanhcode.offroad.content.contraptions.borehead_contraption.BoreheadBearingContraption;
 import foundry.veil.platform.registry.RegistrationProvider;

@@ -1,9 +1,9 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.content.kinetics.base.OrientedRotatingVisual;
-import com.simibubi.create.content.kinetics.base.SingleAxisRotatingVisual;
-import com.simibubi.create.content.kinetics.transmission.SplitShaftVisual;
-import com.simibubi.create.foundation.blockEntity.renderer.SmartBlockEntityRenderer;
+import com.zurrtum.create.client.content.kinetics.base.OrientedRotatingVisual;
+import com.zurrtum.create.client.content.kinetics.base.SingleAxisRotatingVisual;
+import com.zurrtum.create.client.content.kinetics.transmission.SplitShaftVisual;
+import com.zurrtum.create.client.foundation.blockEntity.renderer.SmartBlockEntityRenderer;
 import com.tterrag.registrate.util.entry.BlockEntityEntry;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.content.blocks.altitude_sensor.AltitudeSensorBlockEntity;

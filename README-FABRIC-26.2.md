@@ -41,12 +41,14 @@ inside the Create Fly jar.
 
 ## What is NOT done yet (honest status)
 
-This is a **scaffold, not a working port**. The common code (~905 Java files)
-still imports `com.simibubi.create` (~1,100 refs), NeoForge APIs, Sable/Veil
-NeoForge variants, Curios, and JEI-NeoForge. Compiling
-`:simulated:fabric:build` will fail until the porting work in
-`PORTING-NOTES-FABRIC-26.2.md` is worked through file by file, ideally with
-Java 25 + Gradle 9.5.1 installed so each step can be compile-checked.
+The Fabric modules plus 322 verified Create -> Create Fly import renames
+(482 files, targets checked against the Fly 26.2 jar) are committed. Remaining
+before anything compiles: ~67 unique Create refs with no Fly counterpart
+(Registrate/datagen stack, registries, JEI compat), the NeoForge-capability
+wrappers -> Transfer API, networking/config rewrite, Fabric service impls,
+mixin re-validation, and — blocking everything at runtime — **Sable 26.2 and
+Veil 26.2 do not exist yet** (latest: Sable `2.0.5+mc1.21.1`, Veil `4.5.0`).
+See `PORTING-NOTES-FABRIC-26.2.md` sections 3-8 for the full list.
 
 Do not merge this branch into `main`; keep `main` on NeoForge 1.21.1 until the
 Fabric modules go green.

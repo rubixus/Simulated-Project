@@ -2,10 +2,10 @@ package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter;
 
 import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.MapCodec;
-import com.simibubi.create.AllItems;
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
-import com.simibubi.create.content.redstone.link.controller.LinkedControllerClientHandler;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.AllItems;
+import com.zurrtum.create.content.equipment.wrench.IWrenchable;
+import com.zurrtum.create.client.content.redstone.link.controller.LinkedControllerClientHandler;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.simulated_team.simulated.data.SimLang;
 import dev.simulated_team.simulated.index.SimBlockEntityTypes;
 import dev.simulated_team.simulated.index.SimBlockShapes;

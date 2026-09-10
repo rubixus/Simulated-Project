@@ -3,19 +3,19 @@ package dev.simulated_team.simulated.content.blocks.rope.rope_winch;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.vertex.VertexConsumer;
-import com.simibubi.create.AllSpriteShifts;
-import com.simibubi.create.content.contraptions.pulley.AbstractPulleyRenderer;
-import com.simibubi.create.content.kinetics.base.DirectionalKineticBlock;
-import com.simibubi.create.content.kinetics.base.KineticBlockEntityRenderer;
-import com.simibubi.create.foundation.blockEntity.behaviour.filtering.FilteringRenderer;
+import com.zurrtum.create.client.AllSpriteShifts;
+import com.zurrtum.create.client.content.contraptions.pulley.AbstractPulleyRenderer;
+import com.zurrtum.create.content.kinetics.base.DirectionalKineticBlock;
+import com.zurrtum.create.client.content.kinetics.base.KineticBlockEntityRenderer;
+import com.zurrtum.create.client.foundation.blockEntity.behaviour.filtering.FilteringRenderer;
 import com.simibubi.create.foundation.blockEntity.renderer.SafeBlockEntityRenderer;
 import dev.simulated_team.simulated.content.blocks.rope.strand.client.RopeStrandRenderer;
 import dev.simulated_team.simulated.index.SimPartialModels;
 import dev.simulated_team.simulated.index.SimSpriteShifts;
-import net.createmod.catnip.math.AngleHelper;
-import net.createmod.catnip.render.CachedBuffers;
-import net.createmod.catnip.render.SpriteShiftEntry;
-import net.createmod.catnip.render.SuperByteBuffer;
+import com.zurrtum.create.catnip.math.AngleHelper;
+import com.zurrtum.create.client.catnip.render.CachedBuffers;
+import com.zurrtum.create.client.catnip.render.SpriteShiftEntry;
+import com.zurrtum.create.client.catnip.render.SuperByteBuffer;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.RenderType;
@@ -25,8 +25,8 @@ import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;
 
-import static com.simibubi.create.content.kinetics.base.DirectionalAxisKineticBlock.AXIS_ALONG_FIRST_COORDINATE;
-import static com.simibubi.create.content.kinetics.base.DirectionalKineticBlock.FACING;
+import static com.zurrtum.create.content.kinetics.base.DirectionalAxisKineticBlock.AXIS_ALONG_FIRST_COORDINATE;
+import static com.zurrtum.create.content.kinetics.base.DirectionalKineticBlock.FACING;
 
 public class RopeWinchRenderer extends SafeBlockEntityRenderer<RopeWinchBlockEntity> {
 

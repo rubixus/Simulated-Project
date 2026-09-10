@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.index;
 
 import com.mojang.blaze3d.platform.InputConstants;
-import com.simibubi.create.AllKeys;
+import com.zurrtum.create.client.AllKeys;
 import dev.simulated_team.simulated.Simulated;
 import net.createmod.catnip.client.ConflictSafeKeyMapping;
 import net.minecraft.client.KeyMapping;

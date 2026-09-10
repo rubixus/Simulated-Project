@@ -1,7 +1,7 @@
 package dev.eriksonn.aeronautics.index;
 
-import com.simibubi.create.foundation.block.connected.CTSpriteShiftEntry;
-import com.simibubi.create.foundation.block.connected.CTSpriteShifter;
+import com.zurrtum.create.client.foundation.block.connected.CTSpriteShiftEntry;
+import com.zurrtum.create.client.foundation.block.connected.CTSpriteShifter;
 import dev.eriksonn.aeronautics.Aeronautics;
 
 import static com.simibubi.create.foundation.block.connected.AllCTTypes.OMNIDIRECTIONAL;

@@ -17,7 +17,7 @@ import net.neoforged.api.distmarker.Dist;
 import net.neoforged.api.distmarker.OnlyIn;
 
 /**
- * Stolen shamelessly from {@link com.simibubi.create.content.kinetics.base.RotationIndicatorParticleData}
+ * Stolen shamelessly from {@link com.zurrtum.create.infrastructure.particle.RotationIndicatorParticleData}
  */
 public class AugerIndicatorParticleData implements ParticleOptions, ICustomParticleDataWithSprite<AugerIndicatorParticleData> {
     public static final MapCodec<AugerIndicatorParticleData> CODEC = RecordCodecBuilder.mapCodec(i -> i

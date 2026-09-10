@@ -2,8 +2,8 @@ package dev.eriksonn.aeronautics.content.blocks.propeller.bearing.gyroscopic_pro
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
-import com.simibubi.create.AllPartialModels;
-import com.simibubi.create.content.kinetics.base.OrientedRotatingVisual;
+import com.zurrtum.create.client.AllPartialModels;
+import com.zurrtum.create.client.content.kinetics.base.OrientedRotatingVisual;
 import dev.simulated_team.simulated.util.SimMathUtils;
 import dev.engine_room.flywheel.api.instance.Instance;
 import dev.engine_room.flywheel.api.instance.Instancer;
@@ -17,7 +17,7 @@ import dev.engine_room.flywheel.lib.transform.TransformStack;
 import dev.engine_room.flywheel.lib.visual.SimpleDynamicVisual;
 import dev.eriksonn.aeronautics.index.AeroPartialModels;
 import dev.ryanhcode.sable.companion.math.JOMLConversion;
-import net.createmod.catnip.math.VecHelper;
+import com.zurrtum.create.catnip.math.VecHelper;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.Vec3;

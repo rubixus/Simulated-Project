@@ -1,11 +1,11 @@
 package dev.ryanhcode.offroad.neoforge.service;
 
-import com.simibubi.create.api.stress.BlockStressValues;
-import com.simibubi.create.infrastructure.config.CStress;
+import com.zurrtum.create.api.stress.BlockStressValues;
+import com.zurrtum.create.infrastructure.config.CStress;
 import dev.ryanhcode.offroad.config.client.OffroadClientConfig;
 import dev.ryanhcode.offroad.config.server.OffroadServer;
 import dev.ryanhcode.offroad.config.OffroadConfig;
-import net.createmod.catnip.config.ConfigBase;
+import com.zurrtum.create.catnip.config.ConfigBase;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.EventBusSubscriber;

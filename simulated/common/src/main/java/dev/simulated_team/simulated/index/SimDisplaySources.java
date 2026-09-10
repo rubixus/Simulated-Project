@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.api.behaviour.display.DisplaySource;
-import com.simibubi.create.content.redstone.displayLink.source.ItemThroughputDisplaySource;
+import com.zurrtum.create.api.behaviour.display.DisplaySource;
+import com.zurrtum.create.content.redstone.displayLink.source.ItemThroughputDisplaySource;
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import dev.simulated_team.simulated.Simulated;
 import dev.simulated_team.simulated.content.display_sources.*;

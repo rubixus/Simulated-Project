@@ -1,6 +1,6 @@
 package dev.simulated_team.simulated.mixin.create_assembly;
 
-import com.simibubi.create.content.contraptions.elevator.ElevatorPulleyBlockEntity;
+import com.zurrtum.create.content.contraptions.elevator.ElevatorPulleyBlockEntity;
 import dev.simulated_team.simulated.mixin_interface.create_assembly.IControlContraptionExtension;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;

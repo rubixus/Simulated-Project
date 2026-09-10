@@ -2,7 +2,7 @@ package dev.simulated_team.simulated.mixin.linked_controller_binding;
 
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
 import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
-import com.simibubi.create.content.redstone.link.controller.LinkedControllerItem;
+import com.zurrtum.create.content.redstone.link.controller.LinkedControllerItem;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import dev.simulated_team.simulated.index.SimBlocks;
 import net.minecraft.world.level.block.Block;

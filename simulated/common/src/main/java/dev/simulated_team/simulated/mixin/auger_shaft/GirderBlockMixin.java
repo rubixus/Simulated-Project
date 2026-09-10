@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.mixin.auger_shaft;
 
 import com.llamalad7.mixinextras.sugar.Local;
-import com.simibubi.create.content.decoration.girder.GirderBlock;
+import com.zurrtum.create.content.decoration.girder.GirderBlock;
 import dev.simulated_team.simulated.content.blocks.auger_shaft.AugerShaftBlock;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

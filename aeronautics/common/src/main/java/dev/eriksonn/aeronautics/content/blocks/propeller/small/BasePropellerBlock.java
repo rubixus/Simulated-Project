@@ -1,8 +1,8 @@
 package dev.eriksonn.aeronautics.content.blocks.propeller.small;
 
-import com.simibubi.create.content.equipment.wrench.IWrenchable;
-import com.simibubi.create.content.kinetics.base.DirectionalKineticBlock;
-import com.simibubi.create.foundation.block.IBE;
+import com.zurrtum.create.content.equipment.wrench.IWrenchable;
+import com.zurrtum.create.content.kinetics.base.DirectionalKineticBlock;
+import com.zurrtum.create.foundation.block.IBE;
 import dev.eriksonn.aeronautics.index.AeroBlockShapes;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

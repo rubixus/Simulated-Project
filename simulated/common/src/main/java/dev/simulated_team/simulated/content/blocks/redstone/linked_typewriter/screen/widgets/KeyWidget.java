@@ -2,13 +2,13 @@ package dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.s
 
 import com.mojang.blaze3d.platform.InputConstants;
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.simibubi.create.content.redstone.link.RedstoneLinkNetworkHandler;
+import com.zurrtum.create.content.redstone.link.RedstoneLinkNetworkHandler;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.LinkedTypewriterEntries;
 import dev.simulated_team.simulated.content.blocks.redstone.linked_typewriter.screen.LinkedTypewriterScreen;
 import dev.simulated_team.simulated.index.SimGUITextures;
-import net.createmod.catnip.data.Couple;
-import net.createmod.catnip.gui.element.ScreenElement;
-import net.createmod.catnip.gui.widget.AbstractSimiWidget;
+import com.zurrtum.create.catnip.data.Couple;
+import com.zurrtum.create.client.catnip.gui.element.ScreenElement;
+import com.zurrtum.create.client.catnip.gui.widget.AbstractSimiWidget;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.core.BlockPos;

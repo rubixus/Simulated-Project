@@ -1,7 +1,7 @@
 package dev.simulated_team.simulated.neoforge.mixin.harvesters;
 
-import com.simibubi.create.content.kinetics.saw.SawBlockEntity;
-import com.simibubi.create.foundation.blockEntity.SmartBlockEntity;
+import com.zurrtum.create.content.kinetics.saw.SawBlockEntity;
+import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import dev.simulated_team.simulated.content.blocks.auger_shaft.BlockHarvester;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.item.ItemStack;

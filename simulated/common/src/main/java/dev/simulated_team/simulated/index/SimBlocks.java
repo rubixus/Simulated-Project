@@ -1,12 +1,12 @@
 package dev.simulated_team.simulated.index;
 
-import com.simibubi.create.AllBlocks;
-import com.simibubi.create.AllItems;
+import com.zurrtum.create.AllBlocks;
+import com.zurrtum.create.AllItems;
 import com.simibubi.create.AllTags;
-import com.simibubi.create.Create;
-import com.simibubi.create.api.behaviour.display.DisplaySource;
-import com.simibubi.create.api.behaviour.display.DisplayTarget;
-import com.simibubi.create.api.stress.BlockStressValues;
+import com.zurrtum.create.Create;
+import com.zurrtum.create.api.behaviour.display.DisplaySource;
+import com.zurrtum.create.api.behaviour.display.DisplayTarget;
+import com.zurrtum.create.api.stress.BlockStressValues;
 import com.simibubi.create.foundation.block.DyedBlockList;
 import com.simibubi.create.foundation.block.ItemUseOverrides;
 import com.simibubi.create.foundation.data.AssetLookup;
@@ -14,7 +14,7 @@ import com.simibubi.create.foundation.data.BlockStateGen;
 import com.simibubi.create.foundation.data.CreateRegistrate;
 import com.simibubi.create.foundation.data.SharedProperties;
 import com.simibubi.create.foundation.data.recipe.CommonMetal;
-import com.simibubi.create.foundation.item.ItemDescription;
+import com.zurrtum.create.client.foundation.item.ItemDescription;
 import com.tterrag.registrate.builders.BlockBuilder;
 import com.tterrag.registrate.builders.ItemBuilder;
 import com.tterrag.registrate.providers.RegistrateRecipeProvider;
@@ -91,7 +91,7 @@ import net.minecraft.world.level.material.PushReaction;
 import net.neoforged.neoforge.common.Tags;
 import org.jetbrains.annotations.Nullable;
 
-import static com.simibubi.create.api.behaviour.movement.MovementBehaviour.movementBehaviour;
+import static com.zurrtum.create.api.behaviour.movement.MovementBehaviour.movementBehaviour;
 import static com.simibubi.create.foundation.data.ModelGen.customItemModel;
 import static com.simibubi.create.foundation.data.TagGen.*;
 
