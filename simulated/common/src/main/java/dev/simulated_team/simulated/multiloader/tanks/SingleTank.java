@@ -2,7 +2,7 @@ package dev.simulated_team.simulated.multiloader.tanks;
 
 import dev.simulated_team.simulated.service.SimFluidService;
 import net.minecraft.nbt.CompoundTag;
-import net.minecraft.util.Tuple;
+import dev.simulated_team.simulated.util.Tuple;
 import org.jetbrains.annotations.Nullable;
 
 /**

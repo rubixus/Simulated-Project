@@ -4,7 +4,7 @@ import com.zurrtum.create.infrastructure.config.AllConfigs;
 import dev.simulated_team.simulated.content.blocks.redstone.AbstractLinkedReceiverBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
-import net.minecraft.util.Tuple;
+import dev.simulated_team.simulated.util.Tuple;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.phys.Vec3;

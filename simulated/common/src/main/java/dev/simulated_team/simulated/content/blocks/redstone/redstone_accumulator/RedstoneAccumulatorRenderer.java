@@ -15,11 +15,11 @@ import net.minecraft.client.renderer.RenderStateShard;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.core.Direction;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.util.Mth;
 
 public class RedstoneAccumulatorRenderer extends SmartBlockEntityRenderer<RedstoneAccumulatorBlockEntity> {
-    public static ResourceLocation SHADER_NAME = Simulated.path("redstone_accumulator/diode");
+    public static Identifier SHADER_NAME = Simulated.path("redstone_accumulator/diode");
     public static RenderType DIODE_RENDER_TYPE = RenderType.create("redstone_accumulator_diode", DefaultVertexFormat.BLOCK, VertexFormat.Mode.QUADS, 131072, true, false,
             RenderType.CompositeState.builder()
                     .setLightmapState(RenderStateShard.LIGHTMAP)

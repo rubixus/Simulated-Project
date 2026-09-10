@@ -23,7 +23,7 @@ import org.jetbrains.annotations.Nullable;
 
 import static net.minecraft.world.level.block.state.properties.BlockStateProperties.FACING;
 
-public class RockCuttingWheelActor implements MovementBehaviour {
+public class RockCuttingWheelActor extends MovementBehaviour {
 
     public static final double SEARCH_ORIGIN_OFFSET = 1;
 

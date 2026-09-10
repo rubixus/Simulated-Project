@@ -4,6 +4,7 @@ import com.google.common.collect.ImmutableList;
 import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import com.zurrtum.create.client.foundation.blockEntity.behaviour.ValueBoxTransform;
 import com.zurrtum.create.client.foundation.blockEntity.ValueSettingsBoard;
+import com.zurrtum.create.foundation.blockEntity.behaviour.ValueSettings;
 import com.zurrtum.create.client.foundation.blockEntity.ValueSettingsFormatter;
 import com.zurrtum.create.client.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour;
 import dev.eriksonn.aeronautics.data.AeroLang;

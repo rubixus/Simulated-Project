@@ -11,13 +11,13 @@ import com.zurrtum.create.client.catnip.animation.AnimationTickHolder;
 import net.minecraft.client.renderer.LevelRenderer;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.util.Mth;
-import net.minecraft.util.Tuple;
+import dev.simulated_team.simulated.util.Tuple;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
 import org.joml.Vector3d;
 import org.joml.Vector3dc;
 
-public class AltitudeSensorMovementBehaviour implements MovementBehaviour {
+public class AltitudeSensorMovementBehaviour extends MovementBehaviour {
 
     @Override
     public boolean disableBlockEntityRendering() {

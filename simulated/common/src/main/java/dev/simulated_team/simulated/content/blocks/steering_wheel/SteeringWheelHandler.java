@@ -12,7 +12,7 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.player.LocalPlayer;
 import net.minecraft.core.BlockPos;
-import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.Identifier;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
@@ -49,7 +49,7 @@ public class SteeringWheelHandler extends BlockHoldInteraction {
             return;
         }
 
-        final ResourceLocation tex = Simulated.path("textures/gui/steering_wheel.png");
+        final Identifier tex = Simulated.path("textures/gui/steering_wheel.png");
         final float magicOffset = 0.56f;
 
         final int x = ((width1 - 223) / 2) + SimConfigService.INSTANCE.client().blockConfig.steeringWheelXOffset.get();
@@ -107,7 +107,7 @@ public class SteeringWheelHandler extends BlockHoldInteraction {
         final int markerX = (int) (centerX - degrees * magicOffset) + 1;
         guiGraphics.blit(tex, markerX, y + 11, 224, 0, 9, 18, 256, 256);
 
-        final String text = (int) -realDegrees + "°";
+        final String text = (int) -realDegrees + "Â°";
         final int textWidth = mc.font.width(text);
 
         final int centeredX = markerX + 6 - (textWidth / 2);

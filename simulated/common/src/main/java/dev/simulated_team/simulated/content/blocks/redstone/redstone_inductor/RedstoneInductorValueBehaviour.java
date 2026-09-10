@@ -4,6 +4,7 @@ import com.zurrtum.create.client.foundation.blockEntity.behaviour.scrollValue.Br
 import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import com.zurrtum.create.client.foundation.blockEntity.behaviour.ValueBoxTransform;
 import com.zurrtum.create.client.foundation.blockEntity.ValueSettingsBoard;
+import com.zurrtum.create.foundation.blockEntity.behaviour.ValueSettings;
 import net.minecraft.core.Direction;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;

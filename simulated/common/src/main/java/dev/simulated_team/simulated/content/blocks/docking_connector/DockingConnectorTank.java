@@ -3,7 +3,7 @@ package dev.simulated_team.simulated.content.blocks.docking_connector;
 import dev.simulated_team.simulated.multiloader.tanks.CFluidType;
 import dev.simulated_team.simulated.multiloader.tanks.SingleTank;
 import net.minecraft.core.BlockPos;
-import net.minecraft.util.Tuple;
+import dev.simulated_team.simulated.util.Tuple;
 import net.minecraft.world.level.Level;
 import org.jetbrains.annotations.Nullable;
 

@@ -8,12 +8,12 @@ plugins {
 }
 
 loom {
-    splitEnvironmentSourceSets()
-
+    // NOTE: single source set (no splitEnvironmentSourceSets): Sable/Veil
+    // API stubs and common code mix client and server classes, so main must
+    // compile against full (client+server) mappings.
     mods {
         "simulated" {
             sourceSet sourceSets.main
-            sourceSet sourceSets.client
         }
     }
 
@@ -40,6 +40,19 @@ dependencies {
     // packages moved com.simibubi.create -> com.zurrtum.create.
     // https://github.com/ZurrTum/Create-Fly (branch 26.2)
     implementation "maven.modrinth:create-fly:${create_fly_version}"
+
+    // fastutil: used in Sable/Veil API signatures (local stubs)
+    compileOnly("it.unimi.dsi:fastutil:8.5.15")
+
+    // jsr305: javax.annotation (Nullable etc.) used across common code
+    compileOnly("com.google.code.findbugs:jsr305:3.0.2")
+
+    // CC: Tweaked (Fabric 26.2) for ComputerCraft compat
+    compileOnly("cc.tweaked:cc-tweaked-26.2-fabric:1.120.2")
+
+    // Veil shader toolchain (signatures used by local Veil stubs)
+    compileOnly("gg.moonflower:molang-compiler:3.1.1.19")
+    compileOnly("io.github.ocelot:glsl-processor:0.2.3")
 
     // TODO(port): add Fabric variants of the remaining libs once 26.2 builds exist:
     // - Sable Fabric + sable-companion-fabric (https://maven.ryanhcode.dev/releases)

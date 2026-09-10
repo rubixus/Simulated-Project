@@ -13,7 +13,7 @@ import net.minecraft.core.HolderLookup;
 import net.minecraft.core.Vec3i;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.NbtUtils;
-import net.minecraft.util.FastColor;
+import net.minecraft.util.ARGB;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.DyeColor;
 import net.minecraft.world.level.block.entity.BlockEntityType;
@@ -227,10 +227,10 @@ public class NameplateBlockEntity extends SmartBlockEntity implements ClipboardC
             return -988212;
         } else {
             final double d = 0.4;
-            final int j = (int) ((double) FastColor.ARGB32.red(i) * 0.4);
-            final int k = (int) ((double) FastColor.ARGB32.green(i) * 0.4);
-            final int l = (int) ((double) FastColor.ARGB32.blue(i) * 0.4);
-            return FastColor.ARGB32.color(0, j, k, l);
+            final int j = (int) ((double) ARGB.red(i) * 0.4);
+            final int k = (int) ((double) ARGB.green(i) * 0.4);
+            final int l = (int) ((double) ARGB.blue(i) * 0.4);
+            return ARGB.color(0, j, k, l);
         }
     }
 

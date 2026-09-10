@@ -172,3 +172,18 @@ the same author as this project, so coordinate there.
   `subprojects` block and a module silently breaks resolution of
   `maven.modrinth` artifacts (zero repo attempts, bare "Could not find").
   Declare it exactly ONCE (root).
+
+## 10. Sable/Veil API stubs (physics inert by design)
+
+Sable 26.2 and Veil 26.2 do not exist, so `:simulated:fabric` carries
+generated source-level stubs (`dev.ryanhcode.sable.*`,
+`dev.ryanhcode.sable.companion.*`, `foundry.veil.*`, ~324 files) built from
+`javap` of the 1.21.1 jars, with `net.minecraft.class_*` remapped through
+intermediary + Mojang 1.21.1 mappings and verified against the real 26.2 jars
+(`ResourceLocation` -> `Identifier`, gone render types -> `Object`, raw GL
+gone with Vulkan). Physics ticks, constraints, sub-level movement and custom
+shaders are inert; blocks/items/models/registering code paths are real.
+Regenerate from `C:\Users\Jonah\AppData\Local\Temp\opencode\gen-*.ps1`
+(client-only MC classes compile because the Fabric modules use a single
+unsplit source set). Companion math (`BoundingBox*`, `Pose3d`) is stubbed
+with plain stored values.

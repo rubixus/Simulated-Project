@@ -8,6 +8,7 @@ import com.zurrtum.create.foundation.blockEntity.SmartBlockEntity;
 import com.zurrtum.create.api.behaviour.BlockEntityBehaviour;
 import com.zurrtum.create.client.foundation.blockEntity.behaviour.ValueBoxTransform;
 import com.zurrtum.create.client.foundation.blockEntity.ValueSettingsBoard;
+import com.zurrtum.create.foundation.blockEntity.behaviour.ValueSettings;
 import com.zurrtum.create.client.foundation.blockEntity.ValueSettingsFormatter;
 import com.zurrtum.create.client.foundation.blockEntity.behaviour.scrollValue.ScrollValueBehaviour;
 import dev.engine_room.flywheel.lib.transform.TransformStack;
@@ -376,9 +377,9 @@ public class GimbalSensorBlockEntity extends SmartBlockEntity implements IHaveGo
 
         @Override
         public ValueSettingsBoard createBoard(final Player player, final BlockHitResult hitResult) {
-            final ImmutableList<Component> rows = ImmutableList.of(Component.literal("\u27f3") // ⟳
+            final ImmutableList<Component> rows = ImmutableList.of(Component.literal("\u27f3") // âŸ³
                             .withStyle(ChatFormatting.BOLD),
-                    Component.literal("\u27f2") // ⟲
+                    Component.literal("\u27f2") // âŸ²
                             .withStyle(ChatFormatting.BOLD));
             return new ValueSettingsBoard(this.label, 90, 15, rows, new ValueSettingsFormatter(this::formatValue));
         }

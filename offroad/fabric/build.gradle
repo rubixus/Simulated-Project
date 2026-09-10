@@ -7,12 +7,10 @@ plugins {
 }
 
 loom {
-    splitEnvironmentSourceSets()
-
+    // NOTE: single source set (no splitEnvironmentSourceSets): see simulated:fabric.
     mods {
         "offroad" {
             sourceSet sourceSets.main
-            sourceSet sourceSets.client
         }
     }
 }
@@ -33,6 +31,19 @@ dependencies {
 
     // Create Fly: Fabric port of Create for 26.2 (mod id "create").
     implementation "maven.modrinth:create-fly:${create_fly_version}"
+
+    // fastutil: used in Sable/Veil API signatures (local stubs in :simulated:fabric)
+    compileOnly("it.unimi.dsi:fastutil:8.5.15")
+
+    // jsr305: javax.annotation (Nullable etc.) used across common code
+    compileOnly("com.google.code.findbugs:jsr305:3.0.2")
+
+    // CC: Tweaked (Fabric 26.2) for ComputerCraft compat
+    compileOnly("cc.tweaked:cc-tweaked-26.2-fabric:1.120.2")
+
+    // Veil shader toolchain (signatures used by local Veil stubs)
+    compileOnly("gg.moonflower:molang-compiler:3.1.1.19")
+    compileOnly("io.github.ocelot:glsl-processor:0.2.3")
 
     // Depends on the Simulated Fabric module in this project.
     implementation project(':simulated:fabric')

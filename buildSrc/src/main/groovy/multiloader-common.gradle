@@ -47,37 +47,29 @@ repositories {
 
 if (project.path.endsWith(":common")) {
     dependencies {
+        // fabric/26.2 branch: only artifacts that resolve for 26.2 may stay here.
+        // Anything loader/MC-specific that no longer exists was removed; the
+        // Fabric modules provide replacements (Create Fly, local Sable/Veil
+        // API stubs in :simulated:fabric). Files using removed deps fail
+        // compilation until their port pass - see PORTING-NOTES-FABRIC-26.2.md.
         compileOnly "net.neoforged:neoforge:$neoforge_version"
         compileOnly group: 'org.spongepowered', name: 'mixin', version: '0.8.5'
-
-        compileOnly("dev.ryanhcode.sable-companion:sable-companion-common-${project.minecraft_version}:${project.sable_companion_version}")
 
         // fabric and neoforge both bundle mixinextras, so it is safe to use it in common
         compileOnly group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.4.1'
         annotationProcessor group: 'io.github.llamalad7', name: 'mixinextras-common', version: '0.3.5'
 
-        compileOnly("mezz.jei:jei-${minecraft_version}-common-api:${jei_version}")
+        // Create Fly replaces the NeoForge Create slim jar on this branch.
+        compileOnly("maven.modrinth:create-fly:${create_fly_version}") { transitive = false }
 
-        implementation ("dev.ryanhcode.sable:sable-neoforge-${minecraft_version}:${sable_version}") {
-            exclude group: "foundry.veil"
-        }
-
-        compileOnly("com.simibubi.create:create-${minecraft_version}:${create_version}:slim") { transitive = false }
-        compileOnly("net.createmod.ponder:ponder-neoforge:${ponder_version}+mc${minecraft_version}")
-        compileOnly("dev.engine-room.flywheel:flywheel-neoforge-api-${minecraft_version}:${flywheel_version}")
-        implementation("com.tterrag.registrate:Registrate:${registrate_version}")
-
-        implementation("foundry.veil:veil-common-${minecraft_version}:${project.veil_version}") {
-            exclude group: "maven.modrinth"
-            exclude group: "com.tterrag.registrate"
-        }
-
-        // Mod compat
-        compileOnly("cc.tweaked:cc-tweaked-$minecraft_version-common-api:$computercraft_tweaked_version")
-        compileOnly("maven.modrinth:natures-compass:$minecraft_version-$natures_compass_version-neoforge")
-        compileOnly("maven.modrinth:explorers-compass:$minecraft_version-$explorers_compass_version-neoforge")
-        compileOnly("maven.modrinth:sodium:$sodium_version")
-        compileOnly("maven.modrinth:iris:$iris_version")
+        // REMOVED (no 26.2 artifacts; stubbed or awaiting port passes):
+        // - sable-companion-common / sable-neoforge (local API stubs instead)
+        // - jei-*-common-api (JEI Fabric rewrite pending)
+        // - ponder-neoforge, flywheel-neoforge-api (bundled in Create Fly)
+        // - Registrate (vanilla-registry rewrite pending)
+        // - veil-common (local API stubs instead)
+        // - cc-tweaked / natures-compass / explorers-compass / sodium / iris
+        //   (compat re-targeting pending)
     }
 }
 

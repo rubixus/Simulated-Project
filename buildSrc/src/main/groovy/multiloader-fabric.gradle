@@ -29,11 +29,12 @@ configurations {
 dependencies {
     def commonProjectPath = project.path.contains(':') ? ":${project.parent.name}:common" : ':common'
 
-    compileOnly(project(commonProjectPath)) {
-        capabilities {
-            requireCapability "$group:$mod_id"
-        }
-    }
+    // NOTE: intentionally NO project() dependency here. The common SOURCES are
+    // compiled directly into this module (below) with the Fabric classpath
+    // (Create Fly + local Sable/Veil stubs). Depending on the :common project
+    // would force a standalone :common build against NeoForge deps that do not
+    // exist for 26.2. (Upstream multiloader templates do depend on it; that
+    // only works when both loaders target the same MC version.)
     commonJava project(path: commonProjectPath, configuration: 'commonJava')
     commonResources project(path: commonProjectPath, configuration: 'commonResources')
 }
