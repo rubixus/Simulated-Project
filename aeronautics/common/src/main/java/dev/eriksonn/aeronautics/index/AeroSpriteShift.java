@@ -4,7 +4,7 @@ import com.zurrtum.create.client.foundation.block.connected.CTSpriteShiftEntry;
 import com.zurrtum.create.client.foundation.block.connected.CTSpriteShifter;
 import dev.eriksonn.aeronautics.Aeronautics;
 
-import static com.simibubi.create.foundation.block.connected.AllCTTypes.OMNIDIRECTIONAL;
+import static com.zurrtum.create.client.foundation.block.connected.AllCTTypes.OMNIDIRECTIONAL;
 
 public class AeroSpriteShift {
 	public static final CTSpriteShiftEntry LEVITITE = omni("block/levitite");

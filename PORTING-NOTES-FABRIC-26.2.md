@@ -137,6 +137,13 @@ changes, 482 files, no logic touched):
   (goggle interfaces, `AirParticleData`, `RotationIndicatorParticleData`,
   `BrassDiodeScrollValueBehaviour`, `BlockEntityBehaviour`,
   `ValueSettingsBoard/Formatter`).
+- Pass 3: 5 package/field maps verified against Fly sources
+  (`AllCTTypes.OMNIDIRECTIONAL` field, ponder `api.element`/`api.scene`/
+  `foundation.instruction` packages, `content.kinetics.base` package),
+  plus `SimRenderTypes` retargeted to Fly's `CreateRenderTypes`
+  (`itemGlowingSolid/Translucent` confirmed present) and a `CreateClient`
+  Misclick corrected to Fly's client `Create` entrypoint
+  (`ZAPPER_RENDER_HANDLER`/`VALUE_SETTINGS_HANDLER` live there).
 
 Left for manual passes: ~67 unique Create refs with no Fly counterpart
 (Registrate/datagen stack — Fly has no Registrate, datagen must be rewritten

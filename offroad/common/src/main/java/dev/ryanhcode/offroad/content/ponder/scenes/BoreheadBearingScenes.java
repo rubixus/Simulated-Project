@@ -17,7 +17,7 @@ import dev.ryanhcode.offroad.content.ponder.instructions.StopBoreheadBearingAndC
 import com.zurrtum.create.client.ponder.api.PonderPalette;
 import com.zurrtum.create.client.ponder.api.element.ElementLink;
 import com.zurrtum.create.client.ponder.api.element.WorldSectionElement;
-import net.createmod.ponder.api.scene.*;
+import com.zurrtum.create.client.ponder.api.scene.*;
 import com.zurrtum.create.client.ponder.foundation.instruction.FadeOutOfSceneInstruction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

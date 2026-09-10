@@ -3,7 +3,7 @@ package dev.simulated_team.simulated.index;
 import com.mojang.blaze3d.vertex.DefaultVertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormat;
 import com.mojang.blaze3d.vertex.VertexFormatElement;
-import com.simibubi.create.foundation.render.RenderTypes;
+import com.zurrtum.create.client.foundation.render.CreateRenderTypes;
 import dev.simulated_team.simulated.Simulated;
 import foundry.veil.api.client.render.VeilRenderBridge;
 import net.minecraft.Util;
@@ -131,11 +131,11 @@ public final class SimRenderTypes extends RenderType {
     }
 
     public static RenderType itemGlowingSolid(boolean shadersActive) {
-        return shadersActive ? Sheets.solidBlockSheet() : RenderTypes.itemGlowingSolid();
+        return shadersActive ? Sheets.solidBlockSheet() : CreateRenderTypes.itemGlowingSolid();
     }
 
     public static RenderType itemGlowingTranslucent(boolean shadersActive) {
-        return shadersActive ? Sheets.translucentCullBlockSheet() : RenderTypes.itemGlowingTranslucent();
+        return shadersActive ? Sheets.translucentCullBlockSheet() : CreateRenderTypes.itemGlowingTranslucent();
     }
 
     public static RenderType spring(final ResourceLocation texture) {

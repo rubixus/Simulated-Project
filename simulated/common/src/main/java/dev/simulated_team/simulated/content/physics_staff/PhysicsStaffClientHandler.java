@@ -2,7 +2,7 @@ package dev.simulated_team.simulated.content.physics_staff;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 import com.mojang.blaze3d.vertex.PoseStack;
-import com.zurrtum.create.CreateClient;
+import com.zurrtum.create.client.Create;
 import dev.ryanhcode.sable.Sable;
 import dev.ryanhcode.sable.companion.math.JOMLConversion;
 import dev.ryanhcode.sable.sublevel.ClientSubLevel;
@@ -97,7 +97,7 @@ public class PhysicsStaffClientHandler {
     }
 
     private static void spawnParticles(final InteractionHand hand, final SubLevel subLevel, final Vec3 hitLocation, final Level level) {
-        CreateClient.ZAPPER_RENDER_HANDLER.shoot(hand, subLevel.logicalPose().transformPosition(hitLocation));
+        Create.ZAPPER_RENDER_HANDLER.shoot(hand, subLevel.logicalPose().transformPosition(hitLocation));
 
         final RandomSource random = level.getRandom();
         final Supplier<Double> randomSpeed = () -> (random.nextDouble() - .5d) * .2f;

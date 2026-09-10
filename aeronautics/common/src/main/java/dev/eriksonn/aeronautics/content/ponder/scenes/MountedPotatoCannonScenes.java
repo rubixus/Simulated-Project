@@ -10,7 +10,7 @@ import com.zurrtum.create.catnip.nbt.NBTHelper;
 import com.zurrtum.create.client.ponder.api.PonderPalette;
 import com.zurrtum.create.client.ponder.api.element.ElementLink;
 import com.zurrtum.create.client.ponder.api.element.EntityElement;
-import net.createmod.ponder.api.scene.*;
+import com.zurrtum.create.client.ponder.api.scene.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.nbt.CompoundTag;

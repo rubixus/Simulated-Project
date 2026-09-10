@@ -16,9 +16,9 @@ import dev.eriksonn.aeronautics.content.ponder.instructions.PropellerParticleSpa
 import it.unimi.dsi.fastutil.floats.FloatUnaryOperator;
 import com.zurrtum.create.catnip.math.Pointing;
 import com.zurrtum.create.client.ponder.api.PonderPalette;
-import net.createmod.ponder.api.element.*;
-import net.createmod.ponder.api.scene.*;
-import net.createmod.ponder.foundation.instruction.*;
+import com.zurrtum.create.client.ponder.api.element.*;
+import com.zurrtum.create.client.ponder.api.scene.*;
+import com.zurrtum.create.client.foundation.ponder.instruction.*;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.Vec3i;
