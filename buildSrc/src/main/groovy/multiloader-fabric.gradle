@@ -1,0 +1,57 @@
+// Fabric loader-module conventions for the fabric/26.2 branch.
+//
+// Applies the shared multiloader-common conventions (archivesName, Java toolchain,
+// resource expansion incl. fabric.mod.json) and wires the :common project's
+// java + resources source into this loader module's compile, mirroring
+// multiloader-loader.gradle (NeoForge) but for Fabric Loom.
+//
+// The Loom plugin itself is applied in each :fabric/build.gradle so the Loom
+// version stays in one place (root gradle.properties -> fabric_loom_version).
+// Requires Java 25 + Gradle 9.5.1 + Loom 1.17-SNAPSHOT for Minecraft 26.2.
+
+plugins {
+    id 'multiloader-common'
+}
+
+configurations {
+    commonJava {
+        canBeResolved = true
+    }
+    commonResources {
+        canBeResolved = true
+    }
+    localRuntime {
+        canBeResolved = false
+        canBeConsumed = false
+    }
+    runtimeClasspath.extendsFrom(localRuntime)
+}
+
+dependencies {
+    def commonProjectPath = project.path.contains(':') ? ":${project.parent.name}:common" : ':common'
+
+    compileOnly(project(commonProjectPath)) {
+        capabilities {
+            requireCapability "$group:$mod_id"
+        }
+    }
+    commonJava project(path: commonProjectPath, configuration: 'commonJava')
+    commonResources project(path: commonProjectPath, configuration: 'commonResources')
+}
+
+tasks.named('compileJava', JavaCompile) {
+    dependsOn(configurations.commonJava)
+    source(configurations.commonJava)
+}
+
+processResources {
+    dependsOn(configurations.commonResources)
+    from(configurations.commonResources)
+}
+
+tasks.named('sourcesJar', Jar) {
+    dependsOn(configurations.commonJava)
+    from(configurations.commonJava)
+    dependsOn(configurations.commonResources)
+    from(configurations.commonResources)
+}

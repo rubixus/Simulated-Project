@@ -22,9 +22,12 @@ rootProject.name = "simulated-project"
 include("all-neoforge")
 include("simulated:common")
 include("simulated:neoforge")
+include("simulated:fabric")
 include("aeronautics:common")
 include("aeronautics:neoforge")
+include("aeronautics:fabric")
 include("offroad:common")
 include("offroad:neoforge")
+include("offroad:fabric")
 
 include("aeronautics-bundled")

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "simulated",
+  "version": "${version}",
+  "name": "Create Simulated",
+  "description": "Expands Create with physics-based interactive contraptions. Fabric port for Minecraft 26.2 + Create Fly.",
+  "authors": ["Simulated Team"],
+  "contact": {
+    "homepage": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+    "sources": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+    "issues": "https://github.com/Creators-of-Aeronautics/Simulated-Project/issues"
+  },
+  "license": "Read attached LICENSE.md",
+  "icon": "simulated.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.simulated_team.simulated.fabric.SimulatedFabric"],
+    "client": ["dev.simulated_team.simulated.fabric.SimulatedFabricClient"]
+  },
+  "mixins": ["simulated.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "create": "*"
+  }
+}

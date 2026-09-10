@@ -1,0 +1,60 @@
+// Fabric loader module for Create Aeronautics (Minecraft 26.2 + Create Fly).
+// Mirrors aeronautics:neoforge but targets Fabric Loom.
+
+plugins {
+    id 'multiloader-fabric'
+    id 'net.fabricmc.fabric-loom' version "${fabric_loom_version}"
+}
+
+loom {
+    splitEnvironmentSourceSets()
+
+    mods {
+        "aeronautics" {
+            sourceSet sourceSets.main
+            sourceSet sourceSets.client
+        }
+    }
+}
+
+repositories {
+    exclusiveContent {
+        forRepository {
+            maven {
+                name = 'Modrinth'
+                url = 'https://api.modrinth.com/maven'
+            }
+        }
+        filter {
+            includeGroup 'maven.modrinth'
+        }
+    }
+    maven {
+        name = 'ryanhcode-releases'
+        url = 'https://maven.ryanhcode.dev/releases'
+    }
+}
+
+dependencies {
+    minecraft "com.mojang:minecraft:${minecraft_version}"
+    implementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
+    implementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
+
+    // Create Fly: Fabric port of Create for 26.2 (mod id "create").
+    implementation "maven.modrinth:create-fly:${create_fly_version}"
+
+    // Depends on the Simulated Fabric module in this project.
+    implementation project(':simulated:fabric')
+
+    // TODO(port): Sable Fabric, Veil Fabric, JEI Fabric, Trinkets, CC:Tweaked Fabric (see simulated:fabric).
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 25
+    it.options.encoding = 'UTF-8'
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_25
+    targetCompatibility = JavaVersion.VERSION_25
+}

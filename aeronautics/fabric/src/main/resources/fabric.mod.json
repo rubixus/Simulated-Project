@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "aeronautics",
+  "version": "${version}",
+  "name": "Create Aeronautics",
+  "description": "Enables all manner of flying contraptions with hot air, propellers, and magic floating rocks. Fabric port for Minecraft 26.2 + Create Fly.",
+  "authors": ["Simulated Team"],
+  "contact": {
+    "homepage": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+    "sources": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+    "issues": "https://github.com/Creators-of-Aeronautics/Simulated-Project/issues"
+  },
+  "license": "Read attached LICENSE.md",
+  "icon": "aeronautics.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.eriksonn.aeronautics.fabric.AeronauticsFabric"],
+    "client": ["dev.eriksonn.aeronautics.fabric.AeronauticsFabricClient"]
+  },
+  "mixins": ["aeronautics.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "create": "*",
+    "simulated": "*"
+  }
+}
